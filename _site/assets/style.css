@@ -529,6 +529,13 @@ th {
   width: 100%;
   clear: both; }
 
+.researcharea-topic {
+  padding-bottom: 2rem; }
+
+.researchtopic-thumbnail img {
+  width: 100%;
+  max-width: 300px; }
+
 .page-header {
   height: 125px;
   background-image: url("/assets/images/header_bg.png");

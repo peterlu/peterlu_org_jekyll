@@ -14,10 +14,26 @@ layout: default
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for topic in sorted_pages %} 
       {% if topic.researchareas contains page.id %}
-        <h2><a href="{{ topic.permalink }}">{{topic.title}}</a></h2>
-        <p>{{ topic.description }}<br/>
-        <a class="readmore" href="{{ topic.permalink }}">{{ site.data.locale.read_more }}</a></p>
-        
+        <div class="researcharea-topic">
+					<h2><a href="{{ topic.permalink }}">{{topic.title}}</a></h2>
+					{% if topic.thumbnail %}
+					<div class="row">
+					<div class="researchtopic-thumbnail five columns">
+						<a href="{{ topic.permalink }}">
+							<img src="/images/topic_thumbs/{{ topic.thumbnail }}"/>
+						</a>
+					</div>
+					{% endif %}
+					{% if topic.thumbnail %}
+					<div class="researchtopic-description seven columns">
+					{% else %}
+					<div class="researchtopic-description">
+					{% endif %}
+						<p>{{ topic.description }}<br/>
+						<a class="readmore" href="{{ topic.permalink }}">{{ site.data.locale.read_more }}</a></p>
+					</div>
+					</div>
+        </div>
       {% endif %}
     {% endfor %}
   </div>

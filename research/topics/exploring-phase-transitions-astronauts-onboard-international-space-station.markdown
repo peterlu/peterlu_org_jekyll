@@ -9,6 +9,8 @@ description: "Under normal conditions on earth, the separation between liquids a
 youtube_single: 
 youtube_playlist: 
 
+thumbnail: Phase_separation_grid_040706_thumb.jpg
+
 publications:
 - JRTIP_09
 links:

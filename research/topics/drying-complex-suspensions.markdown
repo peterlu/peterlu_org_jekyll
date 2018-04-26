@@ -10,6 +10,8 @@ description: Mixtures of immiscible fluids with colloids can be very complex but
 youtube_single: 
 youtube_playlist: 
 
+thumbnail: Emulsion_Colloids4b.png
+
 publications:
 - PRL_10a
 
