@@ -25,14 +25,36 @@ layout: default
   </figure>
   {% endif %}
 
+  {% if page.images or page.audio %}
+  <div class="researchtopic-content content five columns">
+  {% else %}
   <div class="researchtopic-content content">
+  {% endif %}
+  
     {{ content }}
   </div>
 
+  {% if page.images or page.audio %}
+  <div class="researchtopic-imagesandaudio seven columns">
+  {% endif %}
+  
   {% if page.images %}
-  <div class="images-container">
-  {% for img in page.publications %} 
+  <div class="researchtopic-imagegallery imagegallery ">
+    <h3>{{ site.data.locale.images }}</h3>
+  <ul class="images-container">
+  {% for img in page.images %} 
+    {% assign img_caption = '' %}
+    {% if img.caption %}
+      {% assign img_caption = img.caption %}
+    {% endif %}
+    <li><a class="gallery" href="/images/large/{{ img.filename }}" title="{{ img_caption }}">
+      <img src="/images/thumbs/{{ img.filename }}" /></a></li>
   {% endfor %}
+  </ul>
+  </div>
+  {% endif %}
+  
+  {% if page.images or page.audio %}
   </div>
   {% endif %}
 

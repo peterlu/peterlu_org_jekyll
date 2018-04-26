@@ -10,6 +10,24 @@ description: The conventional view holds that girih (geometric star-and-polygon)
 youtube_single: 
 youtube_playlist: PLbxXG_dErfEui-PIsZp6j7SycJh1ubnQp
 
+images:
+- filename: AbdullahKhan_Madrassah_Portal1.jpg
+  caption: 
+- filename: AbdullahKhan_Madrassah_Portal2.jpg
+  caption: 
+- filename: AbdullahKhan_Madrassah_Portal3.jpg
+  caption: 
+- filename: AbdullahKhan_Madrassah_Portal_PeterLu.jpg
+  caption:
+- filename: Bukhara_DivanBegiMadrassah.jpg
+  caption:
+- filename: Bukhara_MiriArab_Madrassah_FacadeDomes1.jpg
+  caption:
+- filename: Bukhara_MiriArab_Madrassah_FacadeDomes2.jpg
+  caption:
+- filename: Bukhara_MiriArab_Madrassah_Portal1.jpg
+  caption:
+
 publications:
 - Science_07
 press:
