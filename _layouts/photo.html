@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="researcharea">
+
+<div class="breadcrumb"><a href="/">{{ site.data.locale.home }}</a></div>
+
+  <header class="photo-header">
+    <h1 class="photo-title title">{{ site.data.locale.photo }}</h1>
+  </header>
+  <div class="photo-content content">
+    <ul id="photo-galleries">
+    {% assign counter = 1 %}
+    {% for gallery in page.galleries %} 
+      <h2 class="gallery-title title">{{ gallery.title }}</h2>
+        <ul class="images-container">
+					{% for img in gallery.images %} 
+						{% assign img_caption = '' %}
+						{% if img.caption %}
+							{% assign img_caption = img.caption %}
+						{% endif %}
+						<li><a class="gallery" data-rel="group{{ counter }}" href="/images/large/{{ img.filename }}" title="{{ img_caption }}">
+							<img src="/images/thumbs/{{ img.filename }}" /></a></li>
+					{% endfor %}
+				</ul>
+				{% assign counter = counter | plus: 1 %}
+    {% endfor %}
+    </ul>
+  </div>
+  
+
+</article>

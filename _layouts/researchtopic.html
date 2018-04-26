@@ -47,7 +47,7 @@ layout: default
     {% if img.caption %}
       {% assign img_caption = img.caption %}
     {% endif %}
-    <li><a class="gallery" href="/images/large/{{ img.filename }}" title="{{ img_caption }}">
+    <li><a class="gallery" data-rel="topic" href="/images/large/{{ img.filename }}" title="{{ img_caption }}">
       <img src="/images/thumbs/{{ img.filename }}" /></a></li>
   {% endfor %}
   </ul>
