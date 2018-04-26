@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="researcharea">
+
+<div class="breadcrumb"><a href="/">{{ site.data.locale.home }}</a> › <a href="/research/">{{ site.data.locale.research }}</a></div>
+
+  <header class="researcharea-header">
+    <h1 class="researcharea-title title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="researcharea-content content">
+    {{ content }}
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for topic in sorted_pages %} 
+      {% if topic.researchareas contains page.id %}
+        <h2><a href="{{ topic.permalink }}">{{topic.title}}</a></h2>
+        <p>{{ topic.description }}<br/>
+        <a class="readmore" href="{{ topic.permalink }}">{{ site.data.locale.read_more }}</a></p>
+        
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+
+</article>

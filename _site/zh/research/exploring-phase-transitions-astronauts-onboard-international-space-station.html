@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Colloidal Phase Transitions on the Int'l Space Station with GPGPU</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="icon" type="image/x-icon" href="/zh/favicon.ico" />
+<script src="/assets/js/magnific.js" type="text/javascript"></script>
+     
+  
+</head>
+<body><header class="container page-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/zh/"><img id="logo_header" src="/assets/images/logo_header.png" alt="Peter J. Lu"/></a>
+  </div>
+</header>
+
+<div class="site-nav-container"><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<ul>
+
+    <li><a href="/zh/research/" alt="Research">Research</a></li>
+
+    <li><a href="/zh/publications/" alt="Publications">Publications</a></li>
+
+    <li><a href="/zh/press/" alt="Press">Press</a></li>
+
+    <li><a href="/zh/photo/" alt="Photo">Photo</a></li>
+
+    <li><a href="/zh/video/" alt="Video">Video</a></li>
+
+    <li><a href="/zh/about.html" alt="About">About</a></li>
+
+</ul>
+        </div>
+      </nav></div>
+    
+    <div class="container">
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="researchtopic">
+
+<div class="breadcrumb"><a href="/zh/">Home</a> › <a href="/zh/research/">Research</a></div>
+
+  <header class="researchtopic-header">
+    <h1 class="researchtopic-title title">Colloidal Phase Transitions on the Int&#39;l Space Station with GPGPU</h1>
+  </header>
+  
+  
+
+  
+
+  <div class="researchtopic-content content">
+    <p>Under normal conditions on earth, the separation between liquids and gases is usually a bit mundane: the level of water in a drinking glass simply falls as the liquid evaporates into a gas, since the liquid is denser. Two liquids of different densities, such as the oil and vinegar of salad dressing, are similarly unexciting; the oil just floats to the top after a period of time. However, when the effects of gravity are taken away, such as in the environment of the International Space Station (ISS), this separation creates far more interesting and complex patterns.</p>
+
+<p>We have created mixtures of colloidal particles and polymers that separate into liquid and gas phases over the course of several days on ISS, and using time-lapse photography we are able to watch the changes in these samples and the patterns they form. Specifically, we examine a type of phase separation called spinodal decomposition near the critical point, a set of specific conditions where the properties of liquids and gases are the same. To do these experiments, we work closely with astronauts in orbit aboard the ISS, and some of our recorded conversations are in the player.</p>
+
+<p>To analyze the data, we implement image correlation, a fundamental component of many real-time imaging and tracking systems, on a graphics processing unit (GPU) using NVIDIAs CUDA. We use our code to analyze images of liquid-gas phase separation in a model colloid-polymer system, photographed in the absence of gravity aboard the International Space Station (ISS). Our GPU code is 4000 times faster than simple MATLAB code performing the same calculation on a central processing unit (CPU), 130 times faster than simple C code, and 30 times faster than optimized C++ code using single-instruction, multiple data (SIMD) extensions. The speed increases from these parallel algorithms enable us to analyze images downlinked from the ISS in a rapid fashion and send feedback to astronauts on orbit while the experiments are still being run.</p>
+
+  </div>
+
+  
+
+  
+  
+  <div class="researchtopic-publications publications">
+    <h3>Publications</h3>
+
+    <div hidden>
+      <ol class="bibliography"></ol>
+       
+      
+      <a href="#JRTIP_09">Lu et al., “Orders-of-Magnitude Performance Increases in GPU-Accelerated Correlation of Images from the International Space Station.”</a>
+		  
+	  </div>
+
+    <ol class="bibliography"><li><span id="JRTIP_09">Lu, Peter J., Hidekazu Oki, Catherine A. Frey, Gregory E. Chamitoff, Leroy Chiao, Edward M. Fincke, C. Michael Foale, et al. “Orders-of-Magnitude Performance Increases in GPU-Accelerated Correlation of Images from the International Space Station.” <i>Journal of Real-Time Image Processing</i>, 2009.</span> 
+[<a href="http://www.springerlink.com/content/u1704254764133t5" download>url</a>] 
+
+</li></ol>
+
+  </div>
+  
+  
+  
+  
+  
+  <div class="researchtopic-links links">
+    <h3>Links</h3>
+    <ol>
+      
+      <li><a href="http://science.nasa.gov/headlines/y2004/16jun_colloids.htm?list914346" target="_blank">Science@NASA</a> (Jun 2004)</li>
+		  
+		  </ol>
+	  </div>
+    <ol class="bibliography"></ol>
+
+  </div>
+  
+
+</article>
+
+      </div>
+    </main>
+    
+    </div><footer class="container">
+  <data class="u-url" href="/zh/"></data>
+
+  <div class="column">
+    <p>Peter J. Lu &nbsp;| &nbsp;Harvard University&nbsp; | &nbsp;Cambridge, MA 02138 USA |&nbsp;&nbsp;<a class="u-email" href="mailto:plu@fas.harvard.edu">plu@fas.harvard.edu</a></p>
+    
+      <p>| <a  href=" /research/exploring-phase-transitions-astronauts-onboard-international-space-station ">en</a> |
+   <a  href=" /fr/research/exploring-phase-transitions-astronauts-onboard-international-space-station ">fr</a> |
+   <a  href=" /es/research/exploring-phase-transitions-astronauts-onboard-international-space-station ">es</a> |
+   <a style="font-weight: bold;" href=" /zh/research/exploring-phase-transitions-astronauts-onboard-international-space-station ">zh</a> |
+   <a  href=" /ar/research/exploring-phase-transitions-astronauts-onboard-international-space-station ">ar</a> |
+   <a  href=" /tr/research/exploring-phase-transitions-astronauts-onboard-international-space-station ">tr</a> |
+  
+</p>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

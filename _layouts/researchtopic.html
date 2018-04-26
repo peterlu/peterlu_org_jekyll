@@ -1,0 +1,86 @@
+---
+layout: default
+---
+<article class="researchtopic">
+
+<div class="breadcrumb"><a href="/">{{ site.data.locale.home }}</a> › <a href="/research/">{{ site.data.locale.research }}</a></div>
+
+  <header class="researchtopic-header">
+    <h1 class="researchtopic-title title">{{ page.title | escape }}</h1>
+  </header>
+  
+  {% if page.youtube_single %}
+  <figure>
+  <div class="researchtopic-youtube_single youtube_single videowrapper">
+    {% include youtubeSingle.html id=page.youtube_single %}
+  </div>
+  </figure>
+  {% endif %}
+
+  {% if page.youtube_playlist %}
+  <figure>
+  <div class="researchtopic-youtube_playlist youtube_playlist videowrapper">
+    {% include youtubePlaylist.html id=page.youtube_playlist %}
+  </div>
+  </figure>
+  {% endif %}
+
+  <div class="researchtopic-content content">
+    {{ content }}
+  </div>
+
+  {% if page.images %}
+  <div class="images-container">
+  {% for img in page.publications %} 
+  {% endfor %}
+  </div>
+  {% endif %}
+
+  
+  {% if page.publications %}
+  <div class="researchtopic-publications publications">
+    <h3>{{ site.data.locale.publications }}</h3>
+
+    <div hidden>
+      {% bibliography --cited --file publications --template bib_empty%}
+      {% for key in page.publications %} 
+      {% assign s_key = key | append: '' %}
+      {% cite s_key --file publications %}
+		  {% endfor %}
+	  </div>
+
+    {% bibliography --cited --file publications %}
+
+  </div>
+  {% endif %}
+  
+  {% if page.press %}
+  <div class="researchtopic-press press">
+    <h3>{{ site.data.locale.press }}</h3>
+    <div hidden>
+      {% bibliography --cited --file press --template bib_empty%}
+      {% for key in page.press %}
+      {% assign s_key = key | append: '' %}
+      {% cite s_key --file press %}
+		  {% endfor %}
+	  </div>
+    {% bibliography --cited --file press %}
+
+  </div>
+  {% endif %}
+  
+  {% if page.links %}
+  <div class="researchtopic-links links">
+    <h3>{{ site.data.locale.links }}</h3>
+    <ol>
+      {% for link in page.links %}
+      <li>{{ link }}</li>
+		  {% endfor %}
+		  </ol>
+	  </div>
+    {% bibliography --cited --file press %}
+
+  </div>
+  {% endif %}
+
+</article>

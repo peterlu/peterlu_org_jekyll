@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<article class="researcharea">
+
+<div class="breadcrumb"><a href="/">{{ site.data.locale.home }}</a></div>
+
+  <header class="research-header">
+    <h1 class="research-title title">{{ site.data.locale.research }}</h1>
+  </header>
+
+  <div class="research-content content">
+    <ul id="research-researchareas">
+    {% for researcharea in site.researchareas %} 
+      {% for area in site.pages %} 
+        {% if area.id == researcharea %}
+          <li>
+					<h2><a href="{{ area.permalink }}">{{area.title}}</a></h2>
+					<ul class="research-researchtopics">
+          {% for topic in site.pages %} 
+			      {% if topic.researchareas contains researcharea %}
+  			      <li><a href="{{ topic.permalink }}">{{ topic.title }}</a></li>
+						{% endif %}
+     			{% endfor %}
+     			</ul>
+     			</li>
+				{% endif %}
+			{% endfor %}
+    {% endfor %}
+    </ul>
+  </div>
+  
+
+</article>

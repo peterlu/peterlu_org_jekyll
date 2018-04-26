@@ -1,0 +1,20 @@
+# Menu navigation links
+links:
+
+- name: research
+  url: /research/
+
+- name: publications
+  url: /publications/
+  
+- name: press
+  url: /press/
+  
+- name: photo
+  url: /photo/
+  
+- name: video
+  url: /video/
+  
+- name: about
+  url: /about.html
