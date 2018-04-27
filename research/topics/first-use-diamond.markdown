@@ -6,6 +6,8 @@ permalink: /research/first-use-diamond
 researchareas: ancient_chinese_technology
 description: It has been long thought that man first used diamond in India, around the time of Christ, based on the record of documents from India in the latter half of the first millennium, BC. 
 
+thumbnail: HKAxe_480_thumbnail_0.jpg
+
 youtube_single: 
 youtube_playlist: 
 

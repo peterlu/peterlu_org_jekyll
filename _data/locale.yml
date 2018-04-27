@@ -14,3 +14,10 @@ read_more: "Read more"
 images: Images
 image: Image
 outof: of # Used for image and video galleries, to label the current item as "3 of 6".
+language_names:
+- en: English
+  fr: French
+  es: Spanish
+  zh: Chinese
+  ar: Arabic
+  tr: Turkish

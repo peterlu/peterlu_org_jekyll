@@ -7,10 +7,10 @@ researchareas: soft-matter_and_colloid_physics
 
 description: Colloids are microscopic particles so small that they move diffusively when dispersed in a fluid, exhibiting Brownian motion, controlled by the temperature of the system, like atoms. However, unlike atoms, colloids are big enough to see with light, so they can be probed with microscopes and laser light scattering. 
 
+thumbnail: 3D_Cover_Black_Bkgd.png
+
 youtube_single: 
 youtube_playlist: PLbxXG_dErfEtSrmga_ctxTh0q_r49IBDB
-
-thumbnail: 3D_Cover_Black_Bkgd.png
 
 images:
 - filename: 3D_Cover_Black_Bkgd_1.png

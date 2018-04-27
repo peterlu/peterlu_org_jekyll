@@ -7,6 +7,8 @@ researchareas: high-performance_imaging
 
 description: Colloids are microscopic particles so small that they move diffusively when dispersed in a fluid, exhibiting Brownian motion, controlled by the temperature of the system, like atoms. However, unlike atoms, colloids are big enough to see with light, so they can be probed with microscopes and laser light scattering. 
 
+thumbnail: PLuTARC_Cluster_480_thumbn.jpg
+
 youtube_single: 
 youtube_playlist: 
 

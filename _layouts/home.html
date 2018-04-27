@@ -7,38 +7,71 @@
 
     {%- include header.html -%}
     
-    
+    <div class="home-nav-row row">
+			<div class="home-nav-container column">
+				{%- include nav.html -%}
+			</div>
+    </div>
     <div class="container">
+    
+    
 
 <main class="front-content" aria-label="Content">
   <div class="wrapper">
-		<div class="front-researchareas two-thirds column">
-			<h2 class="title"><a href="/research">{{ site.data.locale.research_areas }}</a></h2>
-			<div class="front-researchareas-list six columns">
-				<ul id="front-researchareas-ul">
-			  	{% for researcharea in site.researchareas %} 
-      			{% for area in site.pages %} 
-        			{% if area.id == researcharea %}
-        				<li><span class="li_inner"><a href="{{ area.permalink }}">{{ area.title }}</span></a></li>
-							{% endif %}
-						{% endfor %}
-					{% endfor %}
-				</ul>
-			</div>
-			<div class="front-researchtopics-list six columns">
-				<ul id="front-researchtopics-ul">
-				</ul>
-			</div>
-		</div>
-		<div class="front-about one-third column">
-			<h2 class="title"><a href="/about.html">{{ site.data.locale.about }}</a></h2>  
-				<ul id="front-about-ul">
-					<li><span class="li-inner"><a href="http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2006_12_29/nodoi.8192153396159846039">SCIENCE profile</a></span></li>
-					<li><span>Resume <a href="/assets/peterlu_resume.pdf"><img src="/assets/pdf.gif"></a></span></li>
-					<li><span>Wikipedia: <a href="http://en.wikipedia.org/wiki/Peter_Lu">[EN]</a> <a href="http://de.wikipedia.org/wiki/Peter_Lu">[DE]</a> <a href="http://fr.wikipedia.org/wiki/Peter_lu">[FR]</a>
-					</span></li>
-				</ul>
+  <div class="row">
+	<h2 class="title"><a href="/research/">{{ site.data.locale.research_areas }}</a></h2>
+  <div class="research-carousel-wrapper">
+  <div class="research-carousel column" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+  
+	{% for researcharea in site.researchareas %} 
+		{% for area in site.pages %} 
+			{% if area.id == researcharea %}
+				<div><div class="researchtopic-thumbnail column">
+						<a href="{{ area.permalink }}">
+							<img src="/images/topic_thumbs/{{ area.thumbnail }}">
+						</a>
+					</div>
+					<span class="researchtopic-label"><a href="{{ area.permalink }}">{{ area.title }}</span></a></div>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+</div>
+</div>
+</div>
+
+<div class="row">
+
+<div class="publications six columns">
+	<h2 class="title"><a href="/publications/">{{ site.data.locale.publications }}</a></h2>
+	
+	<div hidden>
+		{% bibliography --cited --file publications --template bib_empty%}
+		{% for key in page.publications %} 
+		{% assign s_key = key | append: '' %}
+		{% cite s_key --file publications %}
+		{% endfor %}
 	</div>
+
+	{% bibliography --cited --file publications %}
+	<div class="morelink column"><a href="/publications/">More Publications</a></div>
+</div>
+
+<div class="press six columns">
+	<h2 class="title"><a href="/press/">{{ site.data.locale.press }}</a></h2>
+	<div hidden>
+		{% bibliography --cited --file press --template bib_empty%}
+		{% for key in page.press %}
+		{% assign s_key = key | append: '' %}
+		{% cite s_key --file press %}
+		{% endfor %}
+	</div>
+	{% bibliography --cited --file press %}
+	<div class="morelink column"><a href="/press/">More Press</a></div>
+</div>
+
+</div>
+</div>
+
 </main>
     </div>
     

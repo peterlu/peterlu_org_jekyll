@@ -7,6 +7,8 @@ permalink: /research/decagonal-and-quasicrystalline-tilings-medieval-islamic-arc
 
 description: The conventional view holds that girih (geometric star-and-polygon) patterns in medieval Islamic architecture were conceived by their designers as a network of zigzagging lines, where the lines were drafted directly with a straightedge and a compass. 
 
+thumbnail: Emulsion_Colloids4b.png
+
 youtube_single: 
 youtube_playlist: PLbxXG_dErfEui-PIsZp6j7SycJh1ubnQp
 

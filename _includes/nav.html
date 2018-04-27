@@ -15,6 +15,13 @@
 {% for link in site.data.sidebarnav.links %}
     <li><a href="{{ link.url }}" alt="{{ site.data.locale[link.name] }}">{{ site.data.locale[link.name] }}</a></li>
 {% endfor %}
+<li>
+<select id="lang_select" onchange="if (this.value) window.location.href=this.value">
+{% for tongue in site.languages %} 
+    <option value="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}" {% if tongue == site.active_lang %}selected{% endif %}>{{ site.data.locale.language_names[0][tongue ] }}</option>
+{% endfor %}
+</select>
+</li>
 </ul>
         </div>
       </nav>
