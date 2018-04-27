@@ -922,7 +922,8 @@ li {
 
 .home-nav-row {
   width: 85%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 925px; }
 
 #front-researchareas-ul,
 #front-about-ul {
