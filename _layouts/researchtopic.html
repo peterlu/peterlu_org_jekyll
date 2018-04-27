@@ -10,19 +10,11 @@ layout: default
   </header>
   
   {% if page.youtube_single %}
-  <figure>
-  <div class="researchtopic-youtube_single youtube_single videowrapper">
     {% include youtubeSingle.html id=page.youtube_single %}
-  </div>
-  </figure>
   {% endif %}
 
   {% if page.youtube_playlist %}
-  <figure>
-  <div class="researchtopic-youtube_playlist youtube_playlist videowrapper">
     {% include youtubePlaylist.html id=page.youtube_playlist %}
-  </div>
-  </figure>
   {% endif %}
 
   {% if page.images or page.audio %}

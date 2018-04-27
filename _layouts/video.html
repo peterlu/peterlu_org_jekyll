@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="videos">
+
+<div class="breadcrumb"><a href="/">{{ site.data.locale.home }}</a></div>
+
+  <header class="video-header">
+    <h1 class="video-title title">{{ site.data.locale.video }}</h1>
+  </header>
+  {{ content }}
+  {% if page.videos %}
+  <div class="video-content content">
+		<ul class="videos-container">
+			{% for video in page.videos %} 
+				<li>{% include youtubeThumbnail.html id=video.id title=video.title %}</li>
+			{% endfor %}
+		</ul>
+  </div>
+  {% endif %}
+  
+
+</article>

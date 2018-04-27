@@ -17,7 +17,12 @@
 <script src="/assets/js/jquery.colorbox-min.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-  $('.gallery').colorbox({maxWidth:'100%', maxHeight:'100%', 
+  $('.gallery').colorbox({maxWidth:'100%', maxHeight:'100%', current: "Image {current} of {total}",
+    rel:function() {        
+        return $(this).data('rel');
+    }
+});
+  $('.videogallery').colorbox({iframe: true, innerWidth: 640, innerHeight: 390, current: "Video {current} of {total}",
     rel:function() {        
         return $(this).data('rel');
     }
@@ -94,6 +99,8 @@ $(document).ready(function () {
         			
 						 
         			
+						 
+        			
 						
 					 
       			 
@@ -146,6 +153,8 @@ $(document).ready(function () {
         			
 						 
         			
+						 
+        			
 						
 					 
       			 
@@ -166,6 +175,8 @@ $(document).ready(function () {
         			
         				<li><span class="li_inner"><a href="/research/areas/high-performance_imaging">High-performance Imaging</span></a></li>
 							
+						 
+        			
 						 
         			
 						 
@@ -250,6 +261,8 @@ $(document).ready(function () {
         			
 						 
         			
+						 
+        			
 						
 					 
       			 
@@ -288,6 +301,8 @@ $(document).ready(function () {
         			
         				<li><span class="li_inner"><a href="/research/areas/other_research">Other Research</span></a></li>
 							
+						 
+        			
 						 
         			
 						 
