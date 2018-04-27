@@ -29,12 +29,22 @@ $(document).ready(function () {
     rel:function() {        
         return $(this).data('rel');
     }
-});
-  $('.videogallery').colorbox({iframe: true, innerWidth: 640, innerHeight: 390, current: "{{ site.data.locale.video }} {current} {{ site.data.locale.outof }} {total}",
-    rel:function() {        
-        return $(this).data('rel');
-    }
-});
+	});
+	
+  if($(window).width() > 700 && $(window).height() > 400){
+		$('.videogallery').colorbox({iframe: true, innerWidth: 640, innerHeight: 390, current: "{{ site.data.locale.video }} {current} {{ site.data.locale.outof }} {total}",
+			rel:function() {        
+					return $(this).data('rel');
+			}
+		});
+	} else {
+	  $( "a.videogallery" ).each(function( index ) {
+      console.log( "href: " + $( this ).attr('href') );
+      console.log( "althref: " + $( this ).attr('data-althref') );
+      $( this ).attr('href', $( this ).attr('data-althref'));
+    });
+	}
+	
 });
 </script>
      

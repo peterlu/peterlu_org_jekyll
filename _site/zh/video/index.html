@@ -30,12 +30,22 @@ $(document).ready(function () {
     rel:function() {        
         return $(this).data('rel');
     }
-});
-  $('.videogallery').colorbox({iframe: true, innerWidth: 640, innerHeight: 390, current: "Video {current} of {total}",
-    rel:function() {        
-        return $(this).data('rel');
-    }
-});
+	});
+	
+  if($(window).width() > 700 && $(window).height() > 400){
+		$('.videogallery').colorbox({iframe: true, innerWidth: 640, innerHeight: 390, current: "Video {current} of {total}",
+			rel:function() {        
+					return $(this).data('rel');
+			}
+		});
+	} else {
+	  $( "a.videogallery" ).each(function( index ) {
+      console.log( "href: " + $( this ).attr('href') );
+      console.log( "althref: " + $( this ).attr('data-althref') );
+      $( this ).attr('href', $( this ).attr('data-althref'));
+    });
+	}
+	
 });
 </script>
      
@@ -100,7 +110,8 @@ $(document).ready(function () {
 
 data-rel="videos" 
 
-href="https://www.youtube.com/embed/6AJx8IVcL_c?rel=0&amp;wmode=transparent" class="embedded-video-custom" style="background-image: url(&quot;//i.ytimg.com/vi/6AJx8IVcL_c/mqdefault.jpg&quot;);"><svg viewBox="0 0 48 48"><path d="M40 8.8c-1.2-.4-8.6-.8-16-.8s-14.8.4-16 .8c-3.1 1-4 8-4 15.2s.9 14.2 4 15.2c1.2.4 8.6.8 16 .8s14.8-.4 16-.8c3.1-1 4-8 4-15.2s-.9-14.2-4-15.2zM20 33V15l12 9-12 9z"></path></svg>
+href="https://www.youtube.com/embed/6AJx8IVcL_c?rel=0&amp;wmode=transparent"
+data-althref="https://www.youtube.com/watch?v=6AJx8IVcL_c" class="embedded-video-custom" style="background-image: url(&quot;//i.ytimg.com/vi/6AJx8IVcL_c/mqdefault.jpg&quot;);"><svg viewBox="0 0 48 48"><path d="M40 8.8c-1.2-.4-8.6-.8-16-.8s-14.8.4-16 .8c-3.1 1-4 8-4 15.2s.9 14.2 4 15.2c1.2.4 8.6.8 16 .8s14.8-.4 16-.8c3.1-1 4-8 4-15.2s-.9-14.2-4-15.2zM20 33V15l12 9-12 9z"></path></svg>
 
 <div class="title">Girih Tiles: Metropolitan Museum of Art lecture</div>
 
@@ -112,7 +123,8 @@ href="https://www.youtube.com/embed/6AJx8IVcL_c?rel=0&amp;wmode=transparent" cla
 
 data-rel="videos" 
 
-href="https://www.youtube.com/embed/rldnu9rNpH8?rel=0&amp;wmode=transparent" class="embedded-video-custom" style="background-image: url(&quot;//i.ytimg.com/vi/rldnu9rNpH8/mqdefault.jpg&quot;);"><svg viewBox="0 0 48 48"><path d="M40 8.8c-1.2-.4-8.6-.8-16-.8s-14.8.4-16 .8c-3.1 1-4 8-4 15.2s.9 14.2 4 15.2c1.2.4 8.6.8 16 .8s14.8-.4 16-.8c3.1-1 4-8 4-15.2s-.9-14.2-4-15.2zM20 33V15l12 9-12 9z"></path></svg>
+href="https://www.youtube.com/embed/rldnu9rNpH8?rel=0&amp;wmode=transparent"
+data-althref="https://www.youtube.com/watch?v=rldnu9rNpH8" class="embedded-video-custom" style="background-image: url(&quot;//i.ytimg.com/vi/rldnu9rNpH8/mqdefault.jpg&quot;);"><svg viewBox="0 0 48 48"><path d="M40 8.8c-1.2-.4-8.6-.8-16-.8s-14.8.4-16 .8c-3.1 1-4 8-4 15.2s.9 14.2 4 15.2c1.2.4 8.6.8 16 .8s14.8-.4 16-.8c3.1-1 4-8 4-15.2s-.9-14.2-4-15.2zM20 33V15l12 9-12 9z"></path></svg>
 
 </a>
 </div></li>
@@ -122,7 +134,8 @@ href="https://www.youtube.com/embed/rldnu9rNpH8?rel=0&amp;wmode=transparent" cla
 
 data-rel="videos" 
 
-href="https://www.youtube.com/embed/hREUyv5PSM8?rel=0&amp;wmode=transparent" class="embedded-video-custom" style="background-image: url(&quot;//i.ytimg.com/vi/hREUyv5PSM8/mqdefault.jpg&quot;);"><svg viewBox="0 0 48 48"><path d="M40 8.8c-1.2-.4-8.6-.8-16-.8s-14.8.4-16 .8c-3.1 1-4 8-4 15.2s.9 14.2 4 15.2c1.2.4 8.6.8 16 .8s14.8-.4 16-.8c3.1-1 4-8 4-15.2s-.9-14.2-4-15.2zM20 33V15l12 9-12 9z"></path></svg>
+href="https://www.youtube.com/embed/hREUyv5PSM8?rel=0&amp;wmode=transparent"
+data-althref="https://www.youtube.com/watch?v=hREUyv5PSM8" class="embedded-video-custom" style="background-image: url(&quot;//i.ytimg.com/vi/hREUyv5PSM8/mqdefault.jpg&quot;);"><svg viewBox="0 0 48 48"><path d="M40 8.8c-1.2-.4-8.6-.8-16-.8s-14.8.4-16 .8c-3.1 1-4 8-4 15.2s.9 14.2 4 15.2c1.2.4 8.6.8 16 .8s14.8-.4 16-.8c3.1-1 4-8 4-15.2s-.9-14.2-4-15.2zM20 33V15l12 9-12 9z"></path></svg>
 
 </a>
 </div></li>
@@ -132,7 +145,8 @@ href="https://www.youtube.com/embed/hREUyv5PSM8?rel=0&amp;wmode=transparent" cla
 
 data-rel="videos" 
 
-href="https://www.youtube.com/embed/eoYadBQLexM?rel=0&amp;wmode=transparent" class="embedded-video-custom" style="background-image: url(&quot;//i.ytimg.com/vi/eoYadBQLexM/mqdefault.jpg&quot;);"><svg viewBox="0 0 48 48"><path d="M40 8.8c-1.2-.4-8.6-.8-16-.8s-14.8.4-16 .8c-3.1 1-4 8-4 15.2s.9 14.2 4 15.2c1.2.4 8.6.8 16 .8s14.8-.4 16-.8c3.1-1 4-8 4-15.2s-.9-14.2-4-15.2zM20 33V15l12 9-12 9z"></path></svg>
+href="https://www.youtube.com/embed/eoYadBQLexM?rel=0&amp;wmode=transparent"
+data-althref="https://www.youtube.com/watch?v=eoYadBQLexM" class="embedded-video-custom" style="background-image: url(&quot;//i.ytimg.com/vi/eoYadBQLexM/mqdefault.jpg&quot;);"><svg viewBox="0 0 48 48"><path d="M40 8.8c-1.2-.4-8.6-.8-16-.8s-14.8.4-16 .8c-3.1 1-4 8-4 15.2s.9 14.2 4 15.2c1.2.4 8.6.8 16 .8s14.8-.4 16-.8c3.1-1 4-8 4-15.2s-.9-14.2-4-15.2zM20 33V15l12 9-12 9z"></path></svg>
 
 </a>
 </div></li>
