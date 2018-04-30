@@ -1,5 +1,8 @@
 
-    {%- if page_paths -%}
+	{%- if page_paths -%}
+<div id="navheader">
+	<div class="site-nav-row row">
+		<div class="site-nav-container column">
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -11,18 +14,21 @@
         </label>
 
         <div class="trigger">
-<ul>
-{% for link in site.data.sidebarnav.links %}
-    <li><a href="{{ link.url }}" alt="{{ site.data.locale[link.name] }}">{{ site.data.locale[link.name] }}</a></li>
-{% endfor %}
-<li>
-<select id="lang_select" onchange="if (this.value) window.location.href=this.value">
-{% for tongue in site.languages %} 
-    <option value="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}" {% if tongue == site.active_lang %}selected{% endif %}>{{ site.data.locale.language_names[0][tongue ] }}</option>
-{% endfor %}
-</select>
-</li>
-</ul>
+					<ul>
+					{% for link in site.data.sidebarnav.links %}
+						<li><a href="{{ link.url }}" alt="{{ site.data.locale[link.name] }}">{{ site.data.locale[link.name] }}</a></li>
+					{% endfor %}
+						<li>
+							<select id="lang_select" onchange="if (this.value) window.location.href=this.value">
+							{% for tongue in site.languages %} 
+								<option value="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}" {% if tongue == site.active_lang %}selected{% endif %}>{{ site.data.locale.language_names[0][tongue ] }}</option>
+							{% endfor %}
+							</select>
+						</li>
+					</ul>
         </div>
       </nav>
+		</div>
+	</div>
+</div>
     {%- endif -%}

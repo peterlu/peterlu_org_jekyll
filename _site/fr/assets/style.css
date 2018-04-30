@@ -912,6 +912,23 @@ li {
   margin: 0 auto;
   max-width: 925px; }
 
+#navheader {
+  z-index: 1;
+  background: #fff; }
+
+@media (max-width: 700px) {
+  #navheader {
+    position: fixed;
+    top: 0;
+    width: 100%; } }
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+@media (min-width: 701px) {
+  .fixed .site-nav-row {
+    border-bottom: solid thin #ddd; } }
 #front-researchareas-ul,
 #front-about-ul {
   margin: 0; }

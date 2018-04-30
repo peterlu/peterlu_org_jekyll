@@ -27,12 +27,18 @@
 <script src="/assets/js/slick.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function () {
+  // Sticky Header
+	createSticky($("#navheader"));
+
+
+  // Image Gallery
   $('.gallery').colorbox({maxWidth:'100%', maxHeight:'100%', current: "Image {current} of {total}",
     rel:function() {        
         return $(this).data('rel');
     }
 	});
 	
+	// VIdeo Gallery
   if($(window).width() > 700 && $(window).height() > 400){
 		$('.videogallery').colorbox({iframe: true, innerWidth: 640, innerHeight: 390, current: "Video {current} of {total}",
 			rel:function() {        
@@ -47,6 +53,8 @@ $(document).ready(function () {
     });
 	}
 	
+	
+	// Slick Carousel of featured items on the front page
 	$('.research-carousel').slick({
 		dots: true,
 		infinite: false,
@@ -82,7 +90,21 @@ $(document).ready(function () {
 			// instead of a settings object
 		]
 	});
+	
 });
+
+function createSticky(sticky) {
+	
+	if (typeof sticky !== "undefined") {
+
+		var	pos = sticky.offset().top,
+				win = $(window);
+			
+		win.on("scroll", function() {
+    		win.scrollTop() >= pos ? sticky.addClass("fixed") : sticky.removeClass("fixed");      
+		});			
+	}
+}
 </script>
 
 
@@ -94,8 +116,10 @@ $(document).ready(function () {
   </div>
 </header>
 
-<div class="site-nav-row row">
-			<div class="site-nav-container column"><nav class="site-nav">
+<div id="navheader">
+	<div class="site-nav-row row">
+		<div class="site-nav-container column">
+      <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -106,43 +130,43 @@ $(document).ready(function () {
         </label>
 
         <div class="trigger">
-<ul>
-
-    <li><a href="/ar/research/" alt="Research">Research</a></li>
-
-    <li><a href="/ar/publications/" alt="Publications">Publications</a></li>
-
-    <li><a href="/ar/press/" alt="Press">Press</a></li>
-
-    <li><a href="/ar/photo/" alt="Photo">Photo</a></li>
-
-    <li><a href="/ar/video/" alt="Video">Video</a></li>
-
-    <li><a href="/ar/about.html" alt="About">About</a></li>
-
-<li>
-<select id="lang_select" onchange="if (this.value) window.location.href=this.value">
- 
-    <option value=" /press/ " >English</option>
- 
-    <option value=" /fr/press/ " >French</option>
- 
-    <option value=" /es/press/ " >Spanish</option>
- 
-    <option value=" /zh/press/ " >Chinese</option>
- 
-    <option value=" /ar/press/ " selected>Arabic</option>
- 
-    <option value=" /tr/press/ " >Turkish</option>
-
-</select>
-</li>
-</ul>
+					<ul>
+					
+						<li><a href="/ar/research/" alt="Research">Research</a></li>
+					
+						<li><a href="/ar/publications/" alt="Publications">Publications</a></li>
+					
+						<li><a href="/ar/press/" alt="Press">Press</a></li>
+					
+						<li><a href="/ar/photo/" alt="Photo">Photo</a></li>
+					
+						<li><a href="/ar/video/" alt="Video">Video</a></li>
+					
+						<li><a href="/ar/about.html" alt="About">About</a></li>
+					
+						<li>
+							<select id="lang_select" onchange="if (this.value) window.location.href=this.value">
+							 
+								<option value=" /press/ " >English</option>
+							 
+								<option value=" /fr/press/ " >French</option>
+							 
+								<option value=" /es/press/ " >Spanish</option>
+							 
+								<option value=" /zh/press/ " >Chinese</option>
+							 
+								<option value=" /ar/press/ " selected>Arabic</option>
+							 
+								<option value=" /tr/press/ " >Turkish</option>
+							
+							</select>
+						</li>
+					</ul>
         </div>
-      </nav></div>
-    </div>
-    
-    <div class="container">
+      </nav>
+		</div>
+	</div>
+</div><div class="container">
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
