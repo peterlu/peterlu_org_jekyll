@@ -4,6 +4,20 @@
 
 layout: home
 
+# To include items in the carousel on the front page, list their ids here.
+# Carousel items must be pages that include the following variables 
+# in their markdown front-matter:
+# - title
+# - permalink
+# - id (unique to that page, e.g., "medieval_islamic_geometry")
+# - thumbnail (just the file name. Image must be in /images/topic_thumbs/.)
+carousel:
+- medieval_islamic_geometry
+- soft-matter_and_colloid_physics
+- high-performance_imaging
+- ancient_chinese_technology
+- other_research
+
 publications:
 - Nature_08a
 - Science_07

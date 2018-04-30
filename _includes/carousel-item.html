@@ -1,0 +1,15 @@
+
+{% for page in site.pages %} 
+	{% if page.id == include.id %}
+		<div><div class="carousel-thumbnail column">
+				<a href="{{ page.permalink }}">
+					<img src="/images/topic_thumbs/{{ page.thumbnail }}">
+				</a>
+			</div>
+			<div class="carousel-label"><a href="{{ page.permalink }}">
+			    {{ page.title }}
+			  </a>
+			</div>
+    </div>
+  {% endif %}
+{% endfor %}

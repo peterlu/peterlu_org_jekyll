@@ -12,23 +12,15 @@
 <main class="front-content" aria-label="Content">
   <div class="wrapper">
   <div class="row">
-  <div class="research-carousel-wrapper">
-  <div class="research-carousel column" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+  <div class="carousel-wrapper">
+  <div class="carousel column" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
   
-	{% for researcharea in site.researchareas %} 
-		{% for area in site.pages %} 
-			{% if area.id == researcharea %}
-				<div><div class="researchtopic-thumbnail column">
-						<a href="{{ area.permalink }}">
-							<img src="/images/topic_thumbs/{{ area.thumbnail }}">
-						</a>
-					</div>
-					<div class="researchtopic-label"><a href="{{ area.permalink }}">{{ area.title }}</div></a></div>
-			{% endif %}
-		{% endfor %}
+  {% for carousel_item in page.carousel %}
+		{% include carousel-item.html id=carousel_item %}
 	{% endfor %}
-</div>
-</div>
+    
+  </div>
+  </div>
 </div>
 
 <div class="row">

@@ -124,7 +124,8 @@
 .researcharea-topic{
   padding-bottom: 2rem;
 }
-.researchtopic-thumbnail img{
+.researchtopic-thumbnail img,
+.carousel-thumbnail img{
   width:100%;
   max-width:300px;
 }
@@ -249,11 +250,11 @@ main.page-content{
 }
 
 
-.research-carousel-wrapper{
+.carousel-wrapper{
   margin:0 3rem;
 }
-.research-carousel-wrapper .researchtopic-thumbnail,
-.research-carousel-wrapper .researchtopic-label{
+.carousel-wrapper .carousel-thumbnail,
+.carousel-wrapper .carousel-label{
 padding: 0 1rem 1rem 1rem;
 }
 /* Base Styles
