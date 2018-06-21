@@ -2,13 +2,34 @@
 layout: researchtopic
 title:  "Les pavages décagonaux et quasicristallins dans l'architecture islamique médiévale"
 lang: fr
+id: decagonal-and-quasicrystalline-tilings-medieval-islamic-architecture
 permalink: /research/decagonal-and-quasicrystalline-tilings-medieval-islamic-architecture
 researchareas: medieval_islamic_geometry
 
 description: La vision conventionnelle soutient que les motifs girih (géométrique étoile et polygone) dans l'architecture islamique médiévale ont été conçus par leurs concepteurs comme un réseau de lignes en zigzag, où les lignes ont été rédigées directement avec une règle et une boussole.
 
+thumbnail: Emulsion_Colloids4b.png
+
 youtube_single: 
 youtube_playlist: PLbxXG_dErfEui-PIsZp6j7SycJh1ubnQp
+
+images:
+- filename: AbdullahKhan_Madrassah_Portal1.jpg
+  caption: 
+- filename: AbdullahKhan_Madrassah_Portal2.jpg
+  caption: 
+- filename: AbdullahKhan_Madrassah_Portal3.jpg
+  caption: 
+- filename: AbdullahKhan_Madrassah_Portal_PeterLu.jpg
+  caption:
+- filename: Bukhara_DivanBegiMadrassah.jpg
+  caption:
+- filename: Bukhara_MiriArab_Madrassah_FacadeDomes1.jpg
+  caption:
+- filename: Bukhara_MiriArab_Madrassah_FacadeDomes2.jpg
+  caption:
+- filename: Bukhara_MiriArab_Madrassah_Portal1.jpg
+  caption:
 
 publications:
 - Science_07

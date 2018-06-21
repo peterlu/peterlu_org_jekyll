@@ -14,7 +14,10 @@
         </label>
 
         <div class="trigger">
+        
+						<div class="nav-home"><a href="/" alt="{{ site.data.locale.home }}"><img id="nav_home_logo" src="/assets/images/logo_header_small.png" alt="Peter J. Lu"></a></div>
 					<ul>
+						<li id="nav-home-slick"><a href="/" alt="{{ site.data.locale.home }}">{{ site.data.locale.home }}</a></li>
 					{% for link in site.data.sidebarnav.links %}
 						<li><a href="{{ link.url }}" alt="{{ site.data.locale[link.name] }}">{{ site.data.locale[link.name] }}</a></li>
 					{% endfor %}

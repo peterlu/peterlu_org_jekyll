@@ -1,0 +1,19 @@
+
+{% for page in site.pages %} 
+	{% if page.id == include.id %}
+		<div class="column four columns">
+		  <div class="topic-thumbnail">
+				<a href="{{ page.permalink }}">
+					<img src="/images/topic_thumbs/{{ page.thumbnail }}" class="u-full-width">
+				</a>
+			</div>
+			<h2 class="topic-label"><a href="{{ page.permalink }}">
+			    {{ page.title }}
+			  </a>
+			</h2>
+			<p class="topic-description">
+			    {{ page.description }}
+			</p>
+    </div>
+  {% endif %}
+{% endfor %}

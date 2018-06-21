@@ -9,14 +9,14 @@ layout: home
 # in their markdown front-matter:
 # - title
 # - permalink
-# - id (unique to that page, e.g., "medieval_islamic_geometry")
+# - id (unique to that page, e.g., "drying-complex-suspensions")
 # - thumbnail (just the file name. Image must be in /images/topic_thumbs/.)
 carousel:
-- medieval_islamic_geometry
-- soft-matter_and_colloid_physics
-- high-performance_imaging
-- ancient_chinese_technology
-- other_research
+- decagonal-and-quasicrystalline-tilings-medieval-islamic-architecture
+- drying-complex-suspensions
+- exploring-phase-transitions-astronauts-onboard-international-space-station
+- early-precision-compound-machines
+- natural-quasicrystals
 
 publications:
 - Nature_08a

@@ -2,8 +2,8 @@
 layout: researchtopic
 title:  "Incompleteness of the Fossil Record affects Biodiversity"
 lang: en
+id: incompleteness-fossil-record-affects-biodiversity
 permalink: /research/incompleteness-fossil-record-affects-biodiversity
-researchareas: other_research
 
 description: It has been long thought that man first used diamond in India, around the time of Christ, based on the record of documents from India in the latter half of the first millennium, BC. 
 

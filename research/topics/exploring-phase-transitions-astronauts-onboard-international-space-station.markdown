@@ -2,8 +2,8 @@
 layout: researchtopic
 title:  "Colloidal Phase Transitions on the Int'l Space Station with GPGPU"
 lang: en
+id: exploring-phase-transitions-astronauts-onboard-international-space-station
 permalink: /research/exploring-phase-transitions-astronauts-onboard-international-space-station
-researchareas: [high-performance_imaging, soft-matter_and_colloid_physics]
 description: "Under normal conditions on earth, the separation between liquids and gases is usually a bit mundane: the level of water in a drinking glass simply falls as the liquid evaporates into a gas, since the liquid is denser."
 
 youtube_single: 

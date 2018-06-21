@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="researcharea">
+<article class="research">
 
 
   <header class="research-header">
@@ -9,24 +9,18 @@ layout: default
   </header>
 
   <div class="research-content content">
-    <ul id="research-researchareas">
-    {% for researcharea in site.researchareas %} 
-      {% for area in site.pages %} 
-        {% if area.id == researcharea %}
-          <li>
-					<h2><a href="{{ area.permalink }}">{{area.title}}</a></h2>
-					<ul class="research-researchtopics">
-          {% for topic in site.pages %} 
-			      {% if topic.researchareas contains researcharea %}
-  			      <li><a href="{{ topic.permalink }}">{{ topic.title }}</a></li>
-						{% endif %}
-     			{% endfor %}
-     			</ul>
-     			</li>
-				{% endif %}
-			{% endfor %}
+  <div id="research-researchtopics">  
+  {% assign rows = page.topics.size | divided_by: 3.0 | ceil %}
+  {% for i in (1..rows) %}
+    <div class="row"> 
+    {% assign offset = forloop.index0 | times: 3 %}
+    {% for topic in page.topics limit:3 offset:offset %}
+		  {% include topic-thumb.html id=topic %}
     {% endfor %}
-    </ul>
+    </div>
+	{% endfor %}
+	</div>
+	
   </div>
   
 

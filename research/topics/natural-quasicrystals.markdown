@@ -2,8 +2,8 @@
 layout: researchtopic
 title:  "Natural Quasicrystals"
 lang: en
-permalink: /research/natural-quasicrystals-0
-researchareas: other_research
+id: natural-quasicrystals
+permalink: /research/natural-quasicrystals
 
 description: It has been long thought that man first used diamond in India, around the time of Christ, based on the record of documents from India in the latter half of the first millennium, BC. 
 
