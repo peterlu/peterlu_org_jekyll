@@ -1,7 +1,7 @@
 ---
 ---
 {{ reference }} 
-{% if entry.url %}[<a href="{{ entry.url }}" download>link</a>]{% endif %} 
+{% if entry.url %}[<a href="{{ entry.url }}" download>online link</a>]{% endif %} 
 {% if entry.pdf %}
   {% assign pdfs = entry.pdf | split: ', ' %}
   {% for p in pdfs %}
@@ -9,9 +9,8 @@
   {% endfor %}
 {% endif %}
 {% if entry.pdf_supplementary %}
-  {{ site.data.locale.supplementary_files }}: 
   {% assign pdfs_sup = entry.pdf_supplementary | split: ', ' %}
   {% for p in pdfs_sup %}
-  [<a href="{{ p }}" download>pdf</a>] 
+  [<a href="{{ p }}" download>supplementary online pdf</a>] 
   {% endfor %}
 {% endif %}
