@@ -1,9 +1,9 @@
 ---
 layout: researchtopic
-title:  "Drying of Complex Suspensions"
+title:  "Drying Complex Suspensions"
 lang: en
-id: drying-complex-suspensions
-permalink: /research/drying-complex-suspensions
+id: drying_complex_suspensions
+permalink: /research/drying_complex_suspensions
 
 description: Mixtures of immiscible fluids with colloids can be very complex but they are technologically important for industries such as paints and protective coatings, especially when such materials undergo drying.
 

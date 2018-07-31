@@ -1,9 +1,9 @@
 ---
 layout: researchtopic
-title:  "Decagonal and Quasicrystalline Tilings in Medieval Islamic Architecture"
+title:  "Medieval Islamic Architectural Tilings"
 lang: en
-id: decagonal-and-quasicrystalline-tilings-medieval-islamic-architecture
-permalink: /research/decagonal-and-quasicrystalline-tilings-medieval-islamic-architecture
+id: islamic_tilings
+permalink: /research/islamic_tilings
 
 description: The conventional view holds that girih (geometric star-and-polygon) patterns in medieval Islamic architecture were conceived by their designers as a network of zigzagging lines, where the lines were drafted directly with a straightedge and a compass. 
 

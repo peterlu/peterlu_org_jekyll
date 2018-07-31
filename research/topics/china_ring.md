@@ -1,9 +1,9 @@
 ---
 layout: researchtopic
-title:  "Early Precision Compound Machines"
+title:  "Ancient Chinese Compound Machines"
 lang: en
-id: early-precision-compound-machines
-permalink: /research/early-precision-compound-machines
+id: china_ring
+permalink: /research/china_ring
 description: Distinctive spiral grooves carved on ritual jade rings buried in tombs dating from China’s Spring and Autumn period (771–475 BC) follow a precise mathematical form described by the spiral of Archimedes, 300 years before he lived. 
 
 thumbnail: PeterLu_Fig1A_SpiralRing.jpg

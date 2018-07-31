@@ -12,11 +12,14 @@ layout: home
 # - id (unique to that page, e.g., "drying-complex-suspensions")
 # - thumbnail (just the file name. Image must be in /images/topic_thumbs/.)
 carousel:
-- decagonal-and-quasicrystalline-tilings-medieval-islamic-architecture
-- drying-complex-suspensions
-- exploring-phase-transitions-astronauts-onboard-international-space-station
-- early-precision-compound-machines
-- natural-quasicrystals
+- islamic_tilings
+- colloidal_gelation
+- colloids_iss
+- drying_suspensions
+- china_ring
+- china_axe
+- natural_quasicrystals
+- biodiversity
 
 publications:
 - Nature_08a
@@ -24,15 +27,14 @@ publications:
 - Science_04
 - Nature_08b
 - Science_09
+- AnnRev_13
 
 press:
 - IslamQC_Discover
 - IslamQC_NewYorkTimes
-- IslamQC_Newsweek
 - IslamQC_TimesUK
 - IslamQC_Repubblica
 - IslamQC_DieZeit
 - IslamQC_SMH
 - ChinaAxe_ChinaDaily
-- IslamQC_SAM
 ---
