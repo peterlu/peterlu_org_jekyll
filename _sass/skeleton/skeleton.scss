@@ -488,7 +488,8 @@ li {
 .publications li, .mediacoverage li, .links li{
   margin: 0 0 1em 0;
 }
-.front-content .soundcloud{
+.front-content .soundcloud,
+.mediacoverage .soundcloud{
   margin-left:0;
   margin-bottom:1.5em;
 }
