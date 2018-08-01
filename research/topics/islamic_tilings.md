@@ -78,13 +78,12 @@ mediacoverage:
 - IslamQC_WaPo_07
 
 links:
-- <a href="http://physicsweb.org/articles/news/11/2/20/1">PhysicsWeb.org</a> (Feb 2007)
+- <a href="http://news.bbc.co.uk/2/hi/middle_east/6389157.stm">BBC News [UK]</a> (Feb 2007)
+- <a href="http://www.abc.net.au/science/articles/2007/02/23/1855313.htm">ABC [Australia] (Feb 2007)
+- <a href="https://physicsworld.com/a/islamic-quasicrystals-predate-penrose-tiles/">PhysicsWeb.org</a> (Feb 2007)
 - <a href="http://www.livescience.com/history/070222_medieval_tiles.html">LiveScience.com</a> (Feb 2007)
-- <a href="http://www.ams.org/mathmedia/#two">Math in the Media, from the AMS</a> (Feb 2007)
+- <a href="http://www.ams.org/publicoutreach/math-in-the-media/mmarc-03-2007-media#two">Math in the Media, from the AMS</a> (Feb 2007)
 - <a href="http://www.rferl.org/featuresarticle/2007/02/027d03ee-3fee-47e0-a65b-7cc9b2ad54e7.html">Radio Free Europe / Radio Liberty</a> (Feb 2007)
-- <a href="http://noorderlicht.vpro.nl/artikelen/33402791/">Noorderlicht [The Netherlands]</a> (Feb 2007)
-- <a href="http://fr.news.yahoo.com/22022007/202/des-mosaiques-arabo-islamiques-medievales-temoignent-d-une-geometrie-avancee.html">Agence Presse France [France]</a> (Feb 2007
-- <a href="http://www.voanews.com/urdu/2007-03-01-voa3.cfm">Voice of America [Pakistan]</a> (Mar 2007)
 - <a href="http://news.bbc.co.uk/hi/spanish/misc/newsid_6390000/6390715.stm">BBC Mundo [Spain]</a> (Feb 2007)
 - <a href="http://www.bbc.co.uk/indonesian/news/story/2007/02/070223_geometricislamicart.shtml">BBC News [Indonesia]</a> (Feb 2007)
 - <a href="http://www.bbc.co.uk/turkish/news/story/2007/02/070223_islam-geometry.shtml">BBC News [Turkey]</a> (Feb 2007)
