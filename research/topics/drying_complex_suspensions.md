@@ -13,7 +13,7 @@ youtube_playlist:
 thumbnail: Emulsion_Colloids4b.png
 
 publications:
-- PRL_10a
+- PRL_10
 
 links:
 - <a href="http://physics.aps.org/synopsis-for/10.1103/PhysRevLett.104.128303"><em>APS Physics</em></a> (Mar 2010)

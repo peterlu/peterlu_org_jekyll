@@ -4,36 +4,30 @@ title:  "Diamond Polishing in Prehistoric China"
 lang: en
 id: china_axe
 permalink: /research/china_axe
-description: It has been long thought that man first used diamond in India, around the time of Christ, based on the record of documents from India in the latter half of the first millennium, BC. 
+description: Craftsmen in prehistoric China fashioned and polished corundum-bearing stone axes with diamond in 2500 BC, millennia earlier than man's first use of diamond was previously thought to have occurred.  
 
 thumbnail: HKAxe_480_thumbnail_0.jpg
 
-youtube_single: 
+youtube_single: kvqWY9byiKA
 youtube_playlist: 
 
 publications:
 - Archaeometry_05
 press:
-- ChinaAxe_ChinaDaily
-- ChinaAxe_CSM
-- ChinaAxe_LeFigaro
-- ChinaAxe_NZZ
-- ChinaAxe_SdW
-- ChinaAxe_SciNews
-- ChinaAxe_LaRecherche
-- ChinaAxe_TribuneIndia
-- ChinaAxe_ShanghaiDaily
-- 884
-- 886
+- ChinaAxe_ChinaDaily_05
+- ChinaAxe_CSM_05
+- ChinaAxe_HarvardGazette_05
+- ChinaAxe_LaRecherche_05
+- ChinaAxe_LePoint_05
+- ChinaAxe_NZZ_05
+- ChinaAxe_PourLaScience_05
+- ChinaAxe_SciNews_05
+- ChinaAxe_SdW_05
+- ChinaAxe_SMH_10
+- ChinaAxe_TribuneIndia_05
 links: 
 - <a href="http://news.bbc.co.uk/2/hi/science/nature/4555235.stm" target="_blank">BBC News [UK]</a> (May 2005)
-- <a href="http://dsc.discovery.com/news/briefs/20050228/chinarice.html" target="_blank">Discovery Channel</a> (Feb 2005)
-- <a href="http://www.sciencenewsforkids.org/articles/20050223/Note2.asp" target="_blank">Science News for Kids</a> (Feb 2005)
-- <a href="http://news.xinhuanet.com/english/2005-02/17/content_2586965.htm" target="_blank">Xinhua News Service [China]</a> (Feb 2005)
-- <a href="http://news.xinhuanet.com/st/2005-02/17/content_2587107.htm" target="_blank">Xinhua News Service [China]</a> (Feb 2005)
-- <a href="http://historic.ru/news/item/f00/s09/n0000923/" target="_blank">Historic.ru [Russia]</a> (May 2005)
 - <a href="http://studentnews.pl/serwis.php?s=58&amp;pok=1399" target="_blank">studentnews.pl [Poland]</a> (Feb 2005)
-- <a href="http://www.geographic.hu/index.php?act=napi&amp;rov=3&amp;id=4812" target="_blank">National Geographic [Hungary]</a> (May 2005)
 - <a href="http://news.bbc.co.uk/hi/spanish/science/newsid_4559000/4559673.stm" target="_blank">BBC Mundo [Spain]</a> (May 2005)
 - <a href="http://www.bbc.co.uk/vietnamese/science/story/2005/05/050518_chinadiamond.shtml" target="_blank">BBC News [Vietnam]</a> (May 2005)
 - <a href="http://www.bbc.co.uk/slovak/science/story/2005/06/050601_diamonds_china.shtml" target="_blank">BBC News [Slovakia]</a> (May 2005)

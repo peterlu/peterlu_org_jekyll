@@ -9,10 +9,10 @@ permalink: /research/
 topics:
 - islamic_tilings
 - colloidal_gelation
-- colloids_iss
-- drying_complex_suspensions
 - china_ring
+- colloids_iss
 - china_axe
+- drying_complex_suspensions
 - biodiversity
 - natural_quasicrystals
 - plutarc

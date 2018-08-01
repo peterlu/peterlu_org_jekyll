@@ -14,10 +14,10 @@ layout: home
 carousel:
 - islamic_tilings
 - colloidal_gelation
-- colloids_iss
-- drying_suspensions
 - china_ring
+- colloids_iss
 - china_axe
+- drying_complex_suspensions
 - natural_quasicrystals
 - biodiversity
 
@@ -30,11 +30,10 @@ publications:
 - AnnRev_13
 
 press:
-- IslamQC_Discover
-- IslamQC_NewYorkTimes
-- IslamQC_TimesUK
-- IslamQC_Repubblica
-- IslamQC_DieZeit
-- IslamQC_SMH
-- ChinaAxe_ChinaDaily
+- IslamQC_Discover_07
+- IslamQC_NewYorkTimes_07
+- IslamQC_TimesUK_07
+- IslamQC_Repubblica_07
+- IslamQC_DieZeit_07
+- ChinaAxe_ChinaDaily_05
 ---
