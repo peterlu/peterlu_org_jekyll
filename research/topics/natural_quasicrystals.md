@@ -17,7 +17,7 @@ publications:
 - PRL_01
 - ABThesis_00
 - 906
-press:
+mediacoverage:
 - 879
 - 885
 links: 

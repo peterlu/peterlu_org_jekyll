@@ -29,7 +29,7 @@ publications:
 - Science_09
 - AnnRev_13
 
-press:
+mediacoverage:
 - IslamQC_Discover_07
 - IslamQC_NewYorkTimes_07
 - IslamQC_TimesUK_07

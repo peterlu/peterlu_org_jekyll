@@ -33,7 +33,7 @@ images:
 
 publications:
 - Science_07
-press:
+mediacoverage:
 - IslamQC_SAM
 - IslamQC_Discover
 - IslamQC_Berlin

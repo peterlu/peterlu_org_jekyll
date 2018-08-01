@@ -37,20 +37,20 @@
 	</div>
 
 	{% bibliography --cited --file publications %}
-	<div class="morelink column"><a href="/publications/">More Publications</a></div>
+	<div class="morelink column"><a href="/publications/">{{ site.data.locale.morepublications }}</a></div>
 </div>
 
-<div class="press six columns">
-	<h2 class="title"><a href="/press/">{{ site.data.locale.press }}</a></h2>
+<div class="mediacoverage six columns">
+	<h2 class="title"><a href="/mediacoverage/">{{ site.data.locale.mediacoverage }}</a></h2>
 	<div hidden>
-		{% bibliography --cited --file press --template bib_empty%}
-		{% for key in page.press %}
+		{% bibliography --cited --file mediacoverage --template bib_empty%}
+		{% for key in page.mediacoverage %}
 		{% assign s_key = key | append: '' %}
-		{% cite s_key --file press %}
+		{% cite s_key --file mediacoverage %}
 		{% endfor %}
 	</div>
-	{% bibliography --cited --file press %}
-	<div class="morelink column"><a href="/press/">More Press</a></div>
+	{% bibliography --cited --file mediacoverage %}
+	<div class="morelink column"><a href="/mediacoverage/">{{ site.data.locale.moremediacoverage }}</a></div>
 </div>
 
 </div>

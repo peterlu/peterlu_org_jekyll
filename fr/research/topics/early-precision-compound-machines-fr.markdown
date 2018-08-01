@@ -14,7 +14,7 @@ youtube_playlist:
 
 publications:
 - Science_04
-press:
+mediacoverage:
 - ChinaRing_PopMech
 - ChinaRing_Corriere
 - ChinaRing_NewSci

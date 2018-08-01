@@ -13,7 +13,7 @@ youtube_playlist:
 
 publications:
 - Archaeometry_05
-press:
+mediacoverage:
 - ChinaAxe_ChinaDaily_05
 - ChinaAxe_CSM_05
 - ChinaAxe_HarvardGazette_05

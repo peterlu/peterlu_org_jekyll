@@ -32,7 +32,7 @@ images:
 
 publications:
 - Science_07
-press:
+mediacoverage:
 - IslamQC_BerlinZeit_07
 - IslamQC_BildWissen_07
 - IslamQC_BostonGlobe_07

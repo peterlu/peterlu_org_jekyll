@@ -13,7 +13,7 @@ youtube_playlist: PLbxXG_dErfEvOl-HcyA6GBeBtkj9o4gZf
 
 publications:
 - Science_04
-press:
+mediacoverage:
 - ChinaRing_AbArch_04
 - ChinaRing_PopMech
 - ChinaRing_Corriere_04

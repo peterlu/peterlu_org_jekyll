@@ -66,17 +66,17 @@ layout: default
   </div>
   {% endif %}
   
-  {% if page.press %}
-  <div class="researchtopic-press press">
-    <h3>{{ site.data.locale.press }}</h3>
+  {% if page.mediacoverage %}
+  <div class="researchtopic-mediacoverage mediacoverage">
+    <h3>{{ site.data.locale.mediacoverage }}</h3>
     <div hidden>
-      {% bibliography --cited --file press --template bib_empty%}
-      {% for key in page.press %}
+      {% bibliography --cited --file mediacoverage --template bib_empty%}
+      {% for key in page.mediacoverage %}
       {% assign s_key = key | append: '' %}
-      {% cite s_key --file press %}
+      {% cite s_key --file mediacoverage %}
 		  {% endfor %}
 	  </div>
-    {% bibliography --cited --file press %}
+    {% bibliography --cited --file mediacoverage %}
 
   </div>
   {% endif %}
