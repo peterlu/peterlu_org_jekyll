@@ -84,13 +84,12 @@ layout: default
   {% if page.links %}
   <div class="researchtopic-links links">
     <h3>{{ site.data.locale.links }}</h3>
-    <ol>
+    <ul>
       {% for link in page.links %}
       <li>{{ link }}</li>
 		  {% endfor %}
-		  </ol>
+		</ul>
 	  </div>
-    {% bibliography --cited --file press %}
 
   </div>
   {% endif %}
