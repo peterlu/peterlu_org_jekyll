@@ -11,9 +11,7 @@
 			    {{ page.title }}
 			  </a>
 			</h2>
-			<p class="topic-description">
-			    {{ page.description }}
-			</p>
+      {{ page.description | markdownify }}
     </div>
   {% endif %}
 {% endfor %}
