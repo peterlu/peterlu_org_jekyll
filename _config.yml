@@ -62,6 +62,6 @@ parallel_localization: true
 scholar:
   bibliography_template: bib
   repository: pdfs
-  style: _data/chicago-note-bibliography-plu.csl
+  style: _data/american-physics-society-plu.csl
 #  style: chicago-note-bibliography
 #  style: _data/apa-pdf.csl
