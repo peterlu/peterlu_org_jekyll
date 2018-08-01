@@ -5,6 +5,8 @@ publications: Publications
 morepublications: More Publications
 mediacoverage: Media Coverage
 moremediacoverage: More Media Coverage
+broadcastmediacoverage: Broadcast Media Coverage
+printmediacoverage: Print Media Coverage
 photo: Photo
 video: Video
 about: About
@@ -14,6 +16,7 @@ research_topics: "Research Topics"
 read_more: "Read more"
 images: Images
 image: Image
+audio: Audio
 outof: of # Used for image and video galleries, to label the current item as "3 of 6".
 language_names:
 - en: English
