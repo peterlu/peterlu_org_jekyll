@@ -21,6 +21,8 @@ carousel:
 - natural_quasicrystals
 - biodiversity
 
+soundcloud: https://soundcloud.com/user-327605965/sets/npr-bbc
+
 publications:
 - Nature_08a
 - Science_07

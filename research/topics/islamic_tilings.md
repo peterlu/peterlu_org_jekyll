@@ -12,6 +12,8 @@ thumbnail: NYTimes_HomePage_Cropped_thumb_0.jpg
 youtube_single: 
 youtube_playlist: PLbxXG_dErfEui-PIsZp6j7SycJh1ubnQp
 
+soundcloud: https://soundcloud.com/user-327605965/sets/quasicrystalline-medieval
+
 images:
 - filename: AbdullahKhan_Madrassah_Portal1.jpg
   caption: 
