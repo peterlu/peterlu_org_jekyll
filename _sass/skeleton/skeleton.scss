@@ -129,6 +129,12 @@
   width:100%;
   max-width:300px;
 }
+.researchtopic .row{
+  margin:2em 0;
+}
+.researchtopic .images-container{
+  margin-bottom: 0;
+}
 .page-header{
   height: 125px;
   background-image: url("/assets/images/header_bg.png");
@@ -148,6 +154,9 @@
 }
 #logo_header{
   max-height:82px;
+}
+.researchtopic .broadcastmediacoverage{
+  margin-top:2em;
 }
 }
 
@@ -278,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
   margin:0;}
 h1{
   font-size: 2.5rem;
-  padding: .25em 0 1em 0;
+  padding: .5em 0 .25em 0;
   line-height: 1.25em;
 }
 h2{
@@ -486,7 +495,11 @@ li {
   margin-bottom: 0;
 }
 .publications li, .mediacoverage li, .links li{
+  margin: 0 0 .5em 0;
+}
+.front-content .publications li, .front-content .mediacoverage li, .front-content .links li{
   margin: 0 0 1em 0;
+  line-height: 1.4em;
 }
 .front-content .soundcloud,
 .mediacoverage .soundcloud{

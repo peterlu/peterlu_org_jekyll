@@ -2,6 +2,7 @@
 home: Home
 research: Research
 publications: Publications
+featuredpublications: Featured Publications
 morepublications: More Publications
 mediacoverage: Media Coverage
 moremediacoverage: More Media Coverage
@@ -11,6 +12,7 @@ photo: Photo
 video: Video
 about: About
 links: Links
+additionallinks: Additional Links
 supplementary_files: "Supplementary files"
 research_topics: "Research Topics"
 read_more: "Read more"

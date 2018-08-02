@@ -23,7 +23,7 @@ publications:
 - AmerMin_11
 - PRL_01
 - ABThesis_00
-mediacoverage:
+print_media:
 - NatQC_SciAm_09
 links: 
 - <a href="http://focus.aps.org/story/v28/st14"><cite>Physical Review Focus</cite></a> (Oct 2011)

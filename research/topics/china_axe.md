@@ -24,7 +24,7 @@ images:
 
 publications:
 - Archaeometry_05
-mediacoverage:
+print_media:
 - ChinaAxe_ChinaDaily_05
 - ChinaAxe_CSM_05
 - ChinaAxe_HarvardGazette_05

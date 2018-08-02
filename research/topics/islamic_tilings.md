@@ -34,7 +34,7 @@ images:
 
 publications:
 - Science_07
-mediacoverage:
+print_media:
 - IslamQC_BerlinZeit_07
 - IslamQC_BildWissen_07
 - IslamQC_BostonGlobe_07

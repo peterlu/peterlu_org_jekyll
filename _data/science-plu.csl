@@ -81,7 +81,8 @@
                 prefix="&lt;a href=&#34;" 
                 suffix="&#34;&gt;"/> 
         <text macro="title"
-			        suffix="&lt;/a&gt;"/>
+        			prefix="“"
+			        suffix="”&lt;/a&gt;"/>
         </if>
         <else>
         <text macro="title"/>

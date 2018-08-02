@@ -25,7 +25,7 @@ images:
 
 publications:
 - Science_04
-mediacoverage:
+print_media:
 - ChinaRing_AbArch_04
 - ChinaRing_PopMech
 - ChinaRing_Corriere_04
