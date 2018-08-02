@@ -1,11 +1,11 @@
 ---
 layout: researchtopic
-title:  "Medieval Islamic Architectural Tilings"
+title:  "Quasicrystalline Medieval Islamic Architectural Tilings"
 lang: en
 id: islamic_tilings
 permalink: /research/islamic_tilings
 
-description: Islamic designers employed a special set of decorated polygons, the girih tiles, to generate patterns reflecting decagonal geometries centuries before they were understood in the West. 
+description: Medieval Islamic designers used girih tiles to create decagonal patterns embodying math not understood in the West until the 1970s. 
 
 thumbnail: NYTimes_HomePage_Cropped_thumb_0.jpg
 
