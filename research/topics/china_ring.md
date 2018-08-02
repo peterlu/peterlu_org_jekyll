@@ -1,6 +1,6 @@
 ---
 layout: researchtopic
-title:  "First Precision Compound Machines, from ancient China"
+title:  "Earliest Compound Machine"
 lang: en
 id: china_ring
 permalink: /research/china_ring
@@ -10,6 +10,18 @@ thumbnail: PeterLu_Fig1A_SpiralRing.jpg
 
 youtube_single: 
 youtube_playlist: PLbxXG_dErfEvOl-HcyA6GBeBtkj9o4gZf
+
+images:
+- filename: PeterLu_Extra_SpiralRing_thumb.jpg
+  caption: Eastern Zhou dynasty jade ring with spiral grooves, from the British Museum's Hotung Collection.
+- filename: 061504_Lu_Peter6.jpg
+  caption: Eastern Zhou dynasty jade ring with spiral grooves, from the Harvard Art Museums.
+- filename: 061504_Lu_Peter2.jpg
+  caption: Peter J. Lu holding an Eastern Zhou dynasty jade ring with spiral grooves, from the Harvard Art Museums.
+- filename: 061504_Lu_Peter7.jpg
+  caption: Reconstruction of the mechanism of a precision compound machine that drafts spirals of Archimedes.
+
+
 
 publications:
 - Science_04

@@ -12,6 +12,12 @@ thumbnail: Florence_sample_090407_sm.png
 youtube_single: 
 youtube_playlist: 
 
+images:
+- filename: Florence_sample_090407_sm.jpg
+  caption: Icosahedrite sample from Koryak, Russia.
+- filename: HREM_Quasicrystal.png
+  caption: High-Resolution Electron Micrograph of Icosahedrite.
+
 publications:
 - Science_09
 - AmerMin_11

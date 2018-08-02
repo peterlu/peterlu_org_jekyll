@@ -5,7 +5,7 @@ lang: en
 id: colloidal_gelation
 permalink: /research/colloidal_gelation
 
-description: Colloids are microscopic particles so small that they move diffusively when dispersed in a fluid, exhibiting Brownian motion, controlled by the temperature of the system, like atoms. However, unlike atoms, colloids are big enough to see with light, so they can be probed with microscopes and laser light scattering. 
+description: Colloidal gels form when the process of liquid-gas phase separation undergoes kinetic arrest. 
 
 thumbnail: 3D_Cover_Black_Bkgd.png
 
@@ -14,9 +14,9 @@ youtube_playlist: PLbxXG_dErfEtSrmga_ctxTh0q_r49IBDB
 
 images:
 - filename: 3D_Cover_Black_Bkgd_1.png
-  caption: 
+  caption: 3D rendering of a colloidal gel.
 - filename: confocal_gel2_3D_1.png
-  caption: 
+  caption: 3D rendering of a colloidal gel.
 
 publications:
 - Nature_08a
@@ -24,7 +24,6 @@ publications:
 - AnnRev_13
 - PRE_13
 - JPhysCondMat_08
-- OpEx_07
 - PhDThesis_08
 - EPJE_09
 ---

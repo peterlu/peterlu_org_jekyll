@@ -1,6 +1,6 @@
 ---
 layout: researchtopic
-title:  "Locating Particles in Images, rapidly and accurately"
+title:  "Fast, Accurate Particle Location"
 lang: en
 id: particle_location
 permalink: /research/particle_location

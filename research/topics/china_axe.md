@@ -1,6 +1,6 @@
 ---
 layout: researchtopic
-title:  "Earliest Use of Diamond and Sapphire, in Prehistoric China"
+title:  "Earliest Use of Diamond"
 lang: en
 id: china_axe
 permalink: /research/china_axe

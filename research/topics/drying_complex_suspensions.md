@@ -5,12 +5,16 @@ lang: en
 id: drying_complex_suspensions
 permalink: /research/drying_complex_suspensions
 
-description: Mixtures of immiscible fluids with colloids can be very complex but they are technologically important for industries such as paints and protective coatings, especially when such materials undergo drying.
+description: Complex mixtures of immiscible fluids with colloids have important applications in areas such as paints and protective coatings, especially when drying.
 
 youtube_single: 
 youtube_playlist: 
 
 thumbnail: Emulsion_Colloids4b.png
+
+images:
+- filename: Emulsion_Colloids4b.png
+  caption: Rendering of emulsion droplets and colloidal particles.
 
 publications:
 - PRL_10

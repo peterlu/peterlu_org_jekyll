@@ -1,6 +1,6 @@
 ---
 layout: researchtopic
-title:  "Quantifying Biodiversity in light of Fossil Record Incompleteness"
+title:  "Biodiversity and Incompleteness"
 lang: en
 id: biodiversity_incompleteness
 permalink: /research/biodiversity_incompleteness
