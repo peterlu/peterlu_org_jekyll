@@ -10,6 +10,6 @@
 {% if entry.pdf_supplementary %}
   {% assign pdfs_sup = entry.pdf_supplementary | split: ', ' %}
   {% for p in pdfs_sup %}
-  [<a href="{{ p }}" download>supplementary online pdf</a>] 
+  [<a href="{{ p }}" download>Supp. Info</a>] 
   {% endfor %}
 {% endif %}
