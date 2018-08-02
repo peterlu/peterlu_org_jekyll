@@ -95,6 +95,25 @@
     </group>
     <text macro="issued" prefix=" (" suffix=")"/>
   </macro>
+  <macro name="thesisorchapter-title">
+    <group delimiter=", ">
+      <group delimiter=". ">
+      <choose>
+        <if variable="URL">
+        <text variable="URL"
+                prefix="&lt;a href=&#34;" 
+                suffix="&#34;&gt;"/> 
+        <text macro="title"
+        			prefix="“"
+			        suffix="”&lt;/a&gt;"/>
+        </if>
+        <else>
+        <text macro="title"/>
+        </else>
+        </choose>
+      </group>
+    </group>
+  </macro>
   <macro name="publisher">
     <group delimiter=", ">
       <text variable="publisher"/>
@@ -143,6 +162,7 @@
                   <!-- Always print, even if no university given -->
                   <text value="thesis"/>
                 </group>
+                <text macro="thesisorchapter-title"/>
                 <text macro="publisher"/>
               </group>
               <text macro="issued" prefix="(" suffix=")"/>
@@ -153,6 +173,7 @@
               <choose>
                 <if type="chapter paper-conference" match="any">
                   <group delimiter=", ">
+                    <text macro="thesisorchapter-title"/>
                     <group delimiter=" ">
                       <text term="in"/>
                       <text variable="container-title" font-style="italic"/>
@@ -170,7 +191,6 @@
                   <text macro="edition"/>
                   <text macro="issued"/>
                 </group>
-                <text variable="URL"/>
               </group>
             </group>
             <group delimiter=" of ">
