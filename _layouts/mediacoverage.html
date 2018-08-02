@@ -9,6 +9,7 @@ layout: default
 <iframe width="100%" height="350" scrolling="no" frameborder="no"  src="https://w.soundcloud.com/player/?url={{ page.soundcloud | xml_escape }}"></iframe>
   </div>
   {% endif %}
+
   <h1 class="mediacoverage-heading">{{ site.data.locale.printmediacoverage }}</h1>
 
   {% bibliography --file mediacoverage  --style _data/science-mediacoverage-plu.csl %}
