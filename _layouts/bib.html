@@ -1,7 +1,6 @@
 ---
 ---
-{{ reference }} 
-{% if entry.url %}[<a href="{{ entry.url }}" download>online link</a>]{% endif %} 
+{{ reference | replace: "&lt;", "<" | replace: "&gt;", ">" }} 
 {% if entry.pdf %}
   {% assign pdfs = entry.pdf | split: ', ' %}
   {% for p in pdfs %}

@@ -133,7 +133,6 @@
   <bibliography et-al-min="6" et-al-use-first="1" second-field-align="flush">
     <layout suffix=".">
       <group delimiter=", ">
-        <text macro="author"/>
         <choose>
           <if type="thesis">
             <group delimiter=" ">
@@ -197,7 +196,6 @@
                           <text term="in press"/>
                         </group>
                       </group>
-                      <text macro="access"/>
                     </group>
                   </if>
                   <else>
@@ -227,7 +225,6 @@
               </group>
             </group>
             <text macro="pages"/>
-            <text macro="access"/>
           </else-if>
           <else>
             <group>
@@ -242,7 +239,6 @@
               <text macro="issued" prefix=" (" suffix=")"/>
             </group>
             <text macro="pages"/>
-            <text macro="access"/>
           </else>
         </choose>
       </group>
