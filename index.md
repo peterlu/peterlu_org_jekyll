@@ -32,15 +32,13 @@ publications:
 - AnnRev_13
 
 broadcast_media:
-- IslamQC_Discover_07
-- IslamQC_NewYorkTimes_07
-- IslamQC_TimesUK_07
+- ChinaAxe_NPR_ATC_05
+- IslamQC_BBC_WorldToday_07
+- IslamQC_NPR_ATC_07
 
 print_media:
 - IslamQC_Discover_07
 - IslamQC_NewYorkTimes_07
-- IslamQC_TimesUK_07
-- IslamQC_Repubblica_07
-- IslamQC_DieZeit_07
 - ChinaAxe_ChinaDaily_05
+- IslamQC_DieZeit_07
 ---

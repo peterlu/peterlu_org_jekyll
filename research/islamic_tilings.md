@@ -34,6 +34,11 @@ images:
 
 publications:
 - Science_07
+
+broadcast_media:
+- IslamQC_NPR_ATC_07
+- IslamQC_BBC_WorldToday_07
+
 print_media:
 - IslamQC_BerlinZeit_07
 - IslamQC_BildWissen_07
@@ -80,10 +85,12 @@ print_media:
 - IslamQC_WaPo_07
 
 links:
-- <a href="http://news.bbc.co.uk/2/hi/middle_east/6389157.stm">BBC News [UK]</a> (Feb 2007)
 - <a href="https://edition.cnn.com/2011/10/05/world/europe/sweden-nobel-chemistry/">CNN</a> (Oct 2011)
+- <a href="http://www.foxnews.com/story/2007/02/26/study-medieval-islamic-tile-makers-were-master-mathematicians.html">FoxNews</a> (Feb 2007)
+- <a href="http://www.nbcnews.com/id/17282496/ns/technology_and_science-science/t/geometry-feat-cloaked-medieval-islamic-tile/">NBC News</a> (Feb 2007)
+- <a href="http://www.cbc.ca/news/technology/complex-geometry-meets-art-in-islamic-tiles-1.643590">CBC [Canada]</a> (Feb 2007)
 - <a href="http://www.abc.net.au/science/articles/2007/02/23/1855313.htm">ABC [Australia]</a> (Feb 2007)
-- <a href="https://physicsworld.com/a/islamic-quasicrystals-predate-penrose-tiles/">PhysicsWeb.org</a> (Feb 2007)
+- <a href="https://physicsworld.com/a/islamic-quasicrystals-predate-penrose-tiles/">PhysicsWorld</a> (Feb 2007)
 - <a href="http://www.livescience.com/history/070222_medieval_tiles.html">LiveScience.com</a> (Feb 2007)
 - <a href="http://www.ams.org/publicoutreach/math-in-the-media/mmarc-03-2007-media#two">Math in the Media, from the AMS</a> (Feb 2007)
 - <a href="http://www.rferl.org/featuresarticle/2007/02/027d03ee-3fee-47e0-a65b-7cc9b2ad54e7.html">Radio Free Europe / Radio Liberty</a> (Feb 2007)

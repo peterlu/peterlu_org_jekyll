@@ -24,6 +24,8 @@ images:
 
 publications:
 - Archaeometry_05
+broadcast_media:
+- ChinaAxe_NPR_ATC_05
 print_media:
 - ChinaAxe_ChinaDaily_05
 - ChinaAxe_CSM_05
