@@ -14,11 +14,13 @@ layout: home
 carousel:
 - islamic_tilings
 - colloidal_gelation
-- china_ring
-- colloids_iss
 - china_axe
+- colloids_iss
+- china_ring
+- lowcost_detection
 - drying_complex_suspensions
 - natural_quasicrystals
+- ConDDM
 - biodiversity
 
 soundcloud: https://soundcloud.com/user-327605965/sets/npr-bbc
@@ -30,6 +32,10 @@ publications:
 - Nature_08b
 - Science_09
 - AnnRev_13
+- PRL_12
+- PRL_01
+- PRL_06
+- PNAS_06
 
 broadcast_media:
 - ChinaAxe_NPR_ATC_05

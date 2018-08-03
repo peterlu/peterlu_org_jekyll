@@ -15,6 +15,7 @@ topics:
 - particle_location
 - ConDDM
 - natural_quasicrystals
+- lowcost_detection
 - drying_complex_suspensions
 - biodiversity_incompleteness
 ---
