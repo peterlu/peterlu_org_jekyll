@@ -1,7 +1,7 @@
 ---
 layout: researchtopic
 title:  "Colloidi sulla Stazione Spaziale"
-lang: en
+lang: it
 id: colloids_iss
 permalink: /research/colloids_iss
 description: "L'osservazione delle transizioni di fase colloidale nella bassa gravità a bordo della Stazione Spaziale Internazionale consente l'osservazione a lungo termine di nuovi fenomeni."
