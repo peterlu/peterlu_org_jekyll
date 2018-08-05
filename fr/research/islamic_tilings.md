@@ -1,17 +1,18 @@
 ---
 layout: researchtopic
-title:  "Les pavages décagonaux et quasicristallins dans l'architecture islamique médiévale"
-lang: fr
-id: decagonal-and-quasicrystalline-tilings-medieval-islamic-architecture
-permalink: /research/decagonal-and-quasicrystalline-tilings-medieval-islamic-architecture
-researchareas: medieval_islamic_geometry
+title:  "Quasicrystalline Medieval Islamic Architectural Tilings"
+lang: en
+id: islamic_tilings
+permalink: /research/islamic_tilings
 
-description: La vision conventionnelle soutient que les motifs girih (géométrique étoile et polygone) dans l'architecture islamique médiévale ont été conçus par leurs concepteurs comme un réseau de lignes en zigzag, où les lignes ont été rédigées directement avec une règle et une boussole.
+description: Medieval Islamic designers used girih tiles to create decagonal patterns embodying math not understood in the West until the 1970s. 
 
-thumbnail: Emulsion_Colloids4b.png
+thumbnail: NYTimes_HomePage_Cropped_thumb_0.jpg
 
 youtube_single: 
 youtube_playlist: PLbxXG_dErfEui-PIsZp6j7SycJh1ubnQp
+
+soundcloud: https://soundcloud.com/user-327605965/sets/quasicrystalline-medieval
 
 images:
 - filename: AbdullahKhan_Madrassah_Portal1.jpg
@@ -33,7 +34,12 @@ images:
 
 publications:
 - Science_07
-mediacoverage:
+
+broadcast_media:
+- IslamQC_NPR_ATC_07
+- IslamQC_BBC_WorldToday_07
+
+print_media:
 - IslamQC_BerlinZeit_07
 - IslamQC_BildWissen_07
 - IslamQC_BostonGlobe_07
@@ -79,13 +85,15 @@ mediacoverage:
 - IslamQC_WaPo_07
 
 links:
-- <a href="http://physicsweb.org/articles/news/11/2/20/1">PhysicsWeb.org</a> (Feb 2007)
+- <a href="https://edition.cnn.com/2011/10/05/world/europe/sweden-nobel-chemistry/">CNN</a> (Oct 2011)
+- <a href="http://www.foxnews.com/story/2007/02/26/study-medieval-islamic-tile-makers-were-master-mathematicians.html">FoxNews</a> (Feb 2007)
+- <a href="http://www.nbcnews.com/id/17282496/ns/technology_and_science-science/t/geometry-feat-cloaked-medieval-islamic-tile/">NBC News</a> (Feb 2007)
+- <a href="http://www.cbc.ca/news/technology/complex-geometry-meets-art-in-islamic-tiles-1.643590">CBC [Canada]</a> (Feb 2007)
+- <a href="http://www.abc.net.au/science/articles/2007/02/23/1855313.htm">ABC [Australia]</a> (Feb 2007)
+- <a href="https://physicsworld.com/a/islamic-quasicrystals-predate-penrose-tiles/">PhysicsWorld</a> (Feb 2007)
 - <a href="http://www.livescience.com/history/070222_medieval_tiles.html">LiveScience.com</a> (Feb 2007)
-- <a href="http://www.ams.org/mathmedia/#two">Math in the Media, from the AMS</a> (Feb 2007)
+- <a href="http://www.ams.org/publicoutreach/math-in-the-media/mmarc-03-2007-media#two">Math in the Media, from the AMS</a> (Feb 2007)
 - <a href="http://www.rferl.org/featuresarticle/2007/02/027d03ee-3fee-47e0-a65b-7cc9b2ad54e7.html">Radio Free Europe / Radio Liberty</a> (Feb 2007)
-- <a href="http://noorderlicht.vpro.nl/artikelen/33402791/">Noorderlicht [The Netherlands]</a> (Feb 2007)
-- <a href="http://fr.news.yahoo.com/22022007/202/des-mosaiques-arabo-islamiques-medievales-temoignent-d-une-geometrie-avancee.html">Agence Presse France [France]</a> (Feb 2007
-- <a href="http://www.voanews.com/urdu/2007-03-01-voa3.cfm">Voice of America [Pakistan]</a> (Mar 2007)
 - <a href="http://news.bbc.co.uk/hi/spanish/misc/newsid_6390000/6390715.stm">BBC Mundo [Spain]</a> (Feb 2007)
 - <a href="http://www.bbc.co.uk/indonesian/news/story/2007/02/070223_geometricislamicart.shtml">BBC News [Indonesia]</a> (Feb 2007)
 - <a href="http://www.bbc.co.uk/turkish/news/story/2007/02/070223_islam-geometry.shtml">BBC News [Turkey]</a> (Feb 2007)
@@ -94,4 +102,5 @@ links:
 - <a href="http://www.bbc.co.uk/portuguese/ciencia/story/2007/02/070223_arteislamicafn.shtml">BBC News [Brasil]</a> (Feb 2007)
 - <a href="http://www.bbc.co.uk/portugueseafrica/news/story/2007/03/070228_arteislamica.shtml">BBC News [Portugese Africa]</a> (Mar 2007)
 ---
-La vision conventionnelle soutient que les motifs girih (géométrique étoile et polygone) dans l'architecture islamique médiévale ont été conçus par leurs concepteurs comme un réseau de lignes en zigzag, où les lignes ont été rédigées directement avec une règle et une boussole. Nous montrons que vers 1200 C.E. une percée conceptuelle s'est produite dans laquelle les motifs girih ont été repensés comme des tessellations d'un ensemble spécial de polygones équilatéraux (carreaux girih) décorés avec des lignes. Ces tuiles ont permis la création de patrons girih périodiques de plus en plus complexes et, au 15ème siècle, l'approche de la tessellation a été combinée avec des transformations auto-similaires pour construire des patrons de Penrose presque cristallins presque cinq siècles avant leur découverte en Occident.
+The conventional view holds that girih (geometric star-and-polygon) patterns in medieval Islamic architecture were conceived by their designers as a network of zigzagging lines, where the lines were drafted directly with a straightedge and a compass. We show that by 1200 C.E. a conceptual breakthrough occurred in which girih patterns were reconceived as tessellations of a special set of equilateral polygons, the _girih tiles_ decorated with lines. These tiles enabled the creation of increasingly complex periodic girih patterns, and by the 15th century, the tessellation approach was combined with self-similar transformations to construct nearly perfect quasi-crystalline Penrose patterns, five centuries before their discovery in the West.
+

@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: peterjameslu
-github_username:  jekyll
+github_username:  peterlu
 
 # Build settings
 markdown: kramdown
@@ -54,9 +54,10 @@ plugins:
   - jekyll/scholar
   - jekyll-polyglot
 
-languages: ["en", "fr", "es", "zh", "ar", "tr"]
+# languages: ["en", "it", "fr", "es", "zh", "ar", "tr"]
+languages: ["en", "it"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "pdfs", "assets"]
+exclude_from_localization: ["javascript", "images", "css", "pdf", "assets"]
 parallel_localization: true
 
 scholar:

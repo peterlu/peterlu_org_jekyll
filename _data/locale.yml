@@ -23,6 +23,7 @@ outof: of # Used for image and video galleries, to label the current item as "3 
 language_names:
 - en: English
   fr: French
+  it: Italian
   es: Spanish
   zh: Chinese
   ar: Arabic

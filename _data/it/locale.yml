@@ -1,0 +1,30 @@
+# Text snippets for section headings, labels, etc.
+home: Home
+research: Ricerca
+publications: Pubblicazioni
+featuredpublications: Pubblicazioni in primo piano
+morepublications: Più pubblicazioni
+mediacoverage: Media Coverage
+moremediacoverage: Copertura Mediatica
+broadcastmediacoverage: Mezzi di trasmissione
+printmediacoverage: La Stampa
+photo: Foto
+video: Video
+about: A proposito di me
+links: Links
+additionallinks: Additional Links
+supplementary_files: "File supplementari"
+research_topics: "Argomenti di ricerca"
+read_more: "Leggi di più"
+images: Immagini
+image: Immagine
+audio: Audio
+outof: of # Used for image and video galleries, to label the current item as "3 of 6".
+language_names:
+- en: English
+  fr: French
+  it: Italian
+  es: Spanish
+  zh: Chinese
+  ar: Arabic
+  tr: Turkish
