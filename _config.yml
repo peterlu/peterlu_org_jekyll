@@ -56,12 +56,12 @@ plugins:
 
 languages: ["en", "fr", "es", "zh", "ar", "tr"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "pdfs", "assets"]
+exclude_from_localization: ["javascript", "images", "css", "pdf", "assets"]
 parallel_localization: true
 
 scholar:
   bibliography_template: bib
-  repository: pdfs
+  repository: pdf
   style: _data/science-plu.csl
 #  style: chicago-note-bibliography
 #  style: _data/apa-pdf.csl
