@@ -62,7 +62,7 @@ parallel_localization: true
 
 scholar:
   bibliography_template: bib
-  repository: pdfs
+  repository: pdf
   style: _data/science-plu.csl
 #  style: chicago-note-bibliography
 #  style: _data/apa-pdf.csl
