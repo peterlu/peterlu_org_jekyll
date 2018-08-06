@@ -866,6 +866,18 @@ a.gallery{
 }
 
 
+.colloids_back{
+  font-weight: bold;
+  color: $h-color;
+}
+#colloids_post_holder {
+  padding:3%;
+  background-color: $grey-color-light;
+}
+#colloids_post_holder.empty {
+  padding:0;
+}
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
