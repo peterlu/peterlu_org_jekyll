@@ -4,7 +4,7 @@ title:  "Colloidal Gelation"
 lang: en
 id: colloidal_gelation
 permalink: /research/colloidal_gelation
-areas: soft-matter_and_colloid_physics
+areas: soft_matter_physics
 
 description: Colloidal gels form when the process of liquid-gas phase separation undergoes kinetic arrest. 
 

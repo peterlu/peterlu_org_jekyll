@@ -20,14 +20,12 @@ topics:
 - biodiversity_incompleteness
 
 areas:
-- title: "Medieval Islamic Geometry"
-  id: medieval_islamic_geometry
-- title: "Soft-matter and Colloid Physics"
-  id: soft-matter_and_colloid_physics
+- title: "Physics and Math in Art"
+  id: art_physics
+- title: "Soft-matter Physics"
+  id: soft_matter_physics
 - title: "High-performance Imaging"
-  id: high-performance_imaging
-- title: "Ancient Chinese Technology"
-  id: ancient_chinese_technology
-- title: "Other Research"
-  id: other_research
+  id: high_performance_imaging
+- title: "Other"
+  id: other
 ---

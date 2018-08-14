@@ -4,7 +4,7 @@ title:  "Fast, Accurate Particle Location"
 lang: en
 id: particle_location
 permalink: /research/particle_location
-areas: high-performance_imaging
+areas: high_performance_imaging
 
 description: High-performance imaging software and methods to determine rapidly and precisely the 3D positions of many colloidal particles in microscope images.
 

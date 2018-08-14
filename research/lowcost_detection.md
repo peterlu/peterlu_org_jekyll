@@ -4,6 +4,7 @@ title:  "Low-cost detection of contamination and disease"
 lang: en
 id: lowcost_detection
 permalink: /research/lowcost_detection
+areas: other
 
 description: Rapid, low-cost, accurate detection of chemical contamination and microbial pathogens for the developing world.
 

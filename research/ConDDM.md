@@ -4,6 +4,7 @@ title:  "Confocal Differential Dynamic Microscopy"
 lang: en
 id: ConDDM
 permalink: /research/ConDDM
+areas: soft_matter_physics, high_performance_imaging
 
 description: Collecting light-scattering-like data using confocal microscopy.
 

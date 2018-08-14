@@ -4,7 +4,7 @@ title:  "Biodiversity and Incompleteness"
 lang: en
 id: biodiversity_incompleteness
 permalink: /research/biodiversity_incompleteness
-areas: other_research
+areas: other
 
 description: Accounting for the incompleteness of the fossil record removes the artifactual "speed limit" on the recovery of biodiversity following mass extinction. 
 
