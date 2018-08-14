@@ -5,6 +5,7 @@ lang: en
 id: colloids_iss
 permalink: /research/colloids_iss
 description: "Observing colloidal phase transitions in low-gravity aboard the International Space Station enables long-term observation of new phenomena."
+areas: soft-matter_and_colloid_physics, high-performance_imaging
 
 youtube_single: 
 youtube_playlist: 

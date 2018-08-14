@@ -4,6 +4,7 @@ title:  "Natural Quasicrystals"
 lang: en
 id: natural_quasicrystals
 permalink: /research/natural_quasicrystals
+areas: other_research
 
 description: Icosahedrite, the first natural example of a quasicrystalline mineral with forbidden five-fold symmetry, recovered from a Russian meteorite.
 

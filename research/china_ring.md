@@ -5,6 +5,7 @@ lang: en
 id: china_ring
 permalink: /research/china_ring
 description: Ancient Chinese craftsmen first used precision compound machinery to decorate jade rings with the spiral or Archimedes centuries before he lived.
+areas: ancient_chinese_technology
  
 thumbnail: PeterLu_Fig1A_SpiralRing.jpg
 

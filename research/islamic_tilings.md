@@ -4,6 +4,7 @@ title:  "Quasicrystalline Medieval Islamic Architectural Tilings"
 lang: en
 id: islamic_tilings
 permalink: /research/islamic_tilings
+areas: medieval_islamic_geometry
 
 description: Medieval Islamic designers used girih tiles to create decagonal patterns embodying math not understood in the West until the 1970s. 
 
