@@ -38,7 +38,7 @@ $(document).ready(function () {
  
       var selector = $(this).attr('data-filter');
 			// fade all out
-			$('.topic-container').fadeOut(200).promise().done( function() {
+			$('.topic-container').hide().promise().done( function() {
 				// Animation complete.
 				$('.topic-container').detach().appendTo(".topic-hider");
 				$('#research-researchtopics .row').remove();
@@ -57,9 +57,9 @@ $(document).ready(function () {
 					}
 				});
 				if(selector == "*"){
-  				$('.topic-container').fadeIn(200);
+  				$('.topic-container').show();
 				} else {
-  				$('.topic-container.'+selector).fadeIn(200);
+  				$('.topic-container.'+selector).show();
 				}
 				// rearange
 				// fade in
