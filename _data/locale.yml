@@ -20,6 +20,10 @@ images: Images
 image: Image
 audio: Audio
 outof: of # Used for image and video galleries, to label the current item as "3 of 6".
+art_physics: Physics and Math in Art
+soft_matter_physics: Soft-matter Physics
+high_performance_imaging: High-performance Imaging
+other: Other
 language_names:
 - en: English
   fr: French

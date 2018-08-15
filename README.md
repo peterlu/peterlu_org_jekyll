@@ -36,7 +36,7 @@ The front matter of publications/index.md prints the full contents of publicatio
 
 ## Research
 
-The frontmatter of research.md lists the topics shown on this page, in order, by the id in their page's front matter. The areas listed are for the sorting (filtering) links at the top of the page. Each area has an id that matches the areas listed in the frontmatter of topics, and a title for the more readable text in the links.
+The frontmatter of research.md lists the topics shown on this page, in order, by the id in their page's front matter. The areas listed are for the sorting (filtering) links at the top of the page. Each area has an id that matches the areas listed in the frontmatter of topics. This area id also determines the translation provided in locale.yml files.
 
 ## Research Topics
 

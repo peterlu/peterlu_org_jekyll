@@ -13,7 +13,7 @@ layout: default
       <p>Sort by:&nbsp;
         <a href="#" data-filter="*" class="current">All</a>
       {% for area in page.areas %}
-        &nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" data-filter="{{ area.id }}">{{ area.title }}</a>
+        &nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" data-filter="{{ area.id }}">{{ site.data.locale[area] }}</a>
       {% endfor %}
       </p>
     </div>

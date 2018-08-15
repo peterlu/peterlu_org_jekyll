@@ -20,12 +20,9 @@ topics:
 - biodiversity_incompleteness
 
 areas:
-- title: "Physics and Math in Art"
-  id: art_physics
-- title: "Soft-matter Physics"
-  id: soft_matter_physics
-- title: "High-performance Imaging"
-  id: high_performance_imaging
-- title: "Other"
-  id: other
+- art_physics
+- soft_matter_physics
+- high_performance_imaging
+- other
 ---
+{{site.data.locale.art_physics | jsonify}}
