@@ -18,4 +18,11 @@ topics:
 - lowcost_detection
 - drying_complex_suspensions
 - biodiversity_incompleteness
+
+areas:
+- art_physics
+- soft_matter_physics
+- high_performance_imaging
+- other
 ---
+{{site.data.locale.art_physics | jsonify}}

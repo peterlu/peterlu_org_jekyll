@@ -5,6 +5,7 @@ lang: en
 id: china_axe
 permalink: /research/china_axe
 description: Neolithic craftsmen in China used diamond to polish sapphire-bearing stone axes in 2500 BC, millennia before people were thought to be using diamond.
+areas: art_physics
 
 thumbnail: HKAxe_480_thumbnail_0.jpg
 

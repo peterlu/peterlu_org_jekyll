@@ -6,6 +6,7 @@ id: drying_complex_suspensions
 permalink: /research/drying_complex_suspensions
 
 description: Complex mixtures of immiscible fluids with colloids have important applications in areas such as paints and protective coatings, especially when drying.
+areas: soft_matter_physics
 
 youtube_single: 
 youtube_playlist: 

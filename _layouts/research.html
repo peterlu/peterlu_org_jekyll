@@ -9,18 +9,28 @@ layout: default
   </header>
 
   <div class="research-content content">
-  <div id="research-researchtopics">  
-  {% assign rows = page.topics.size | divided_by: 3.0 | ceil %}
-  {% for i in (1..rows) %}
-    <div class="row"> 
-    {% assign offset = forloop.index0 | times: 3 %}
-    {% for topic in page.topics limit:3 offset:offset %}
-		  {% include topic-thumb.html id=topic %}
-    {% endfor %}
+  <div class="row sort">
+      <p>Sort by:&nbsp;
+        <a href="#" data-filter="*" class="current">All</a>
+      {% for area in page.areas %}
+        &nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" data-filter="{{ area.id }}">{{ site.data.locale[area] }}</a>
+      {% endfor %}
+      </p>
     </div>
-	{% endfor %}
-	</div>
-	
+	  <div id="research-researchtopics">  
+  		{% assign rows = page.topics.size | divided_by: 3.0 | ceil %}
+  		{% assign sort = 0 %}
+  		{% for i in (1..rows) %}
+  			<div class="row">
+    		{% assign offset = forloop.index0 | times: 3 %}
+    		{% for topic in page.topics limit:3 offset:offset %}
+		  		{% include topic-thumb.html id=topic sort=sort %}
+		  		{% assign sort = sort | plus: 1 %}
+    		{% endfor %}
+    		</div>
+			{% endfor %}
+			<div class="topic-hider">
+			</div>
   </div>
   
 

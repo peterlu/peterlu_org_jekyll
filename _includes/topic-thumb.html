@@ -1,7 +1,7 @@
 
 {% for page in site.pages %} 
 	{% if page.id == include.id %}
-		<div class="column four columns">
+		<div class="column four columns topic-container {{ page.areas  | remove: ',' | join: ' ' }}" data-sort-op="{{ include.sort }}">
 		  <div class="topic-thumbnail">
 				<a href="{{ page.permalink }}">
 					<img src="/images/topic_thumbs/{{ page.thumbnail }}" class="u-full-width">
