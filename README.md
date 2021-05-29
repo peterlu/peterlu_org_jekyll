@@ -3,7 +3,7 @@
 
 This repository houses the jekyll source files for PeterLu.org. The static output is housed at the `peterlu.github.io` repository. 
 
-A separate output repository is needed because the site uses jekyll plugins taht aren't supported by github pages. The plugins include:
+A separate output repository is needed because the site uses jekyll plugins that aren't supported by github pages. The plugins include:
 - jekyll-scholar for bibliography management
 - jekyll-polyglot (for multiple language support).
 
